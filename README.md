@@ -1,5 +1,5 @@
 # 💫 About Me:
-I’m currently working on personal projects<br><br>I’m currently learning Hyperledger and Kubernetes<br><br>Ask me about anything related to MERN stack and related technologies<br><br>Fun fact: I use tabs over spaces
+I’m currently working on personal projects<br><br>I’m currently learning React & MySql<br><br>Ask me about anything related to MERN stack and related technologies<br><br>Fun fact: I use tabs over spaces
 
 
 ## 🌐 Socials:

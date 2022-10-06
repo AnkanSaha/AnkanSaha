@@ -1,3 +1,5 @@
+
+## Intro  
 <div align="center">
 <img src="https://github.com/AnkanSaha/AnkanSaha/blob/main/greetings.gif" align="center" style="width: 100%" />
 </div>  
@@ -100,16 +102,12 @@
 
 <br/>  
 
-
-## Recent Blog Posts  
   
 
 <br/>  
 
-<div align="center"><img src="https://spotify-github-profile.vercel.app/api/view?uid=31f6okso6qyzlpuqyefwt2kgi4t4&cover_image=true&theme=compact&show_offline=false" /></div>  
 
-<br/>  
-
+## Visitor Counter  
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=AnkanSaha&&style=flat-square" align="center" />
 </div>  
@@ -117,6 +115,8 @@
 
 <br/>  
 
+
+## Support Me  
 <div align="center">
             <a href="https://paypal.me/ANKAN2003" target="_blank" style="display: inline-block;">
                 <img

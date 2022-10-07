@@ -117,13 +117,6 @@
 
 
 ## Support Me  
-<div align="center">
-            <a href="https://paypal.me/ANKAN2003" target="_blank" style="display: inline-block;">
-                <img
-                    src="https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat-square&logo=paypal" 
-                    align="center"
-                />
-            </a></div>
             <div align="center">
             <a href="https://github.com/sponsors/AnkanSaha" target="_blank" style="display: inline-block;">
                 <img

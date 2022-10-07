@@ -127,7 +127,7 @@
             <div align="center">
             <a href="https://github.com/sponsors/AnkanSaha" target="_blank" style="display: inline-block;">
                 <img
-                    src="https://user-images.githubusercontent.com/93839804/194671932-817c265f-a32f-4941-9193-6da4d5787178.png" 
+                    src="https://user-images.githubusercontent.com/93839804/194672049-ef573df5-519d-46d1-b5c5-1c4cf5093ae8.png" 
                     align="center"
                 />
             </a></div>

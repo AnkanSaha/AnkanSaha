@@ -1,5 +1,5 @@
 # 💫 About Me:
-- 🔭 I’m currently working on [Parsonal Projects](https://github.com/AnkanSaha)  <br>  <br><br>- 🌱 I’m currently learning python & Python Web Frameworks  <br>  <br><br>- ❓ Ask me about anything related to MERN stack and related technologies  <br>  <br><br>- ⚡ Fun fact: I use tabs over spaces
+- 🔭 I’m currently working on [Parsonal Projects](https://github.com/AnkanSaha)  <br>  <br><br>- 🌱 I’m currently learning Typescript with React  <br>  <br><br>- ❓ Ask me about anything related to MERN stack and related technologies  <br>  <br><br>- ⚡ Fun fact: I use tabs over spaces
 
 
 ## 🌐 Socials:

@@ -1,6 +1,6 @@
 ### Hey 👋, I'm Ankan
 
-[![Github](https://img.shields.io/github/followers/rickstaa?label=Follow&style=social)](https://github.com/rickstaa)
+[![Github](https://img.shields.io/github/followers/AnkanSaha?label=Follow&style=social)](https://github.com/AnkanSaha)
 
 I'm a student, passionate about solving problems and creating solutions 🕸️:. I :heart: I strongly believe in project-based learning. .
 

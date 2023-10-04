@@ -3,7 +3,7 @@
 <h3 align="center">I'm a student, passionate about solving problems and creating solutions 🕸️:. I ❤️ I strongly believe in project-based learning. .</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=AnkanSaha&label=Profile%20views&color=0e75b6&style=flat" alt="AnkanSaha" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=AnkanSaha&theme=dracula" alt="AnkanSaha" /></a> </p>
+
 
 - 🔭 I’m currently working on [PaisaPay](https://github.com/AnkanSaha/PaisaPay)
 - 🌱 I’m currently learning **Next.JS, Typescript**

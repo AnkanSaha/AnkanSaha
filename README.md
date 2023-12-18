@@ -4,7 +4,7 @@
 
 
 
-- 🔭 I’m currently working on [Code-Editor]([https://github.com/AnkanSaha/PaisaPay](https://github.com/AnkanSaha/Code-Editor))
+- 🔭 I’m currently working on [Code-Editor](https://github.com/AnkanSaha/Code-Editor)
 - 🌱 I’m currently learning **Next.JS, Typescript**
 - 💬 Ask me about **Node.JS, MongoDB, Express.JS, Nginx, Javascript**
 - 📫 How to reach me **help@ankansaha.tech**

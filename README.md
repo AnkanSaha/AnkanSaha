@@ -2,8 +2,6 @@
 <h3 align="center">I'm a student, passionate about solving problems and creating solutions 🕸️:. I ❤️ I strongly believe in project-based learning. .</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=AnkanSaha&label=Profile%20views&color=0e75b6&style=flat" alt="AnkanSaha" /> </p>
 
-
-
 - 🔭 I’m currently working on [Node-Server_Config](https://github.com/AnkanSaha/Deploy-Node-App-Enviroment-Config)
 - 🌱 I’m currently learning **Advance Javascript, Typescript**
 - 💬 Ask me about **Node.JS, MongoDB, Express.JS, Nginx, Javascript**

@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on [AxioDB](https://github.com/AnkanSaha/AxioDB)
 
-- 🌱 I’m currently learning **Golang**
+- 🌱 I’m currently learning **Golang**,**Java**
 
 - 👯 I’m looking to collaborate on [AxioDB](https://github.com/AnkanSaha/AxioDB)
 

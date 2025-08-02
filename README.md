@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ankan</h1>
-<h3 align="center">A Backend Engineer from India ❤️ Passionate about solving problems and creating solutions</h3>
+<h3 align="center">A Software Engineer from India ❤️ Passionate about solving problems and creating solutions</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ankansaha&label=Profile%20views&color=0e75b6&style=flat" alt="ankansaha" /> </p>
 
@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on [AxioDB](https://github.com/AnkanSaha/AxioDB), [Portfolio](https://github.com/AnkanSaha/Portfolio)
 
-- 🌱 I’m currently learning **Golang**,**Java**
+- 🌱 I’m currently learning **Golang**
 
 - 👯 I’m looking to collaborate on [AxioDB](https://github.com/AnkanSaha/AxioDB)
 

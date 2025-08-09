@@ -17,7 +17,7 @@
 
 - 💬 Ask me about **NodeJS, MongoDB, Javascript, Typescript**
 
-- 📫 How to reach me **help@ankanweb.site**
+- 📫 How to reach me **connect@ankan.site**
 
 - ⚡ Fun fact **Programmers' favorite error message: "There are only 10 types of people in the world: those who understand binary and those who don't."**
 

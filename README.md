@@ -7,13 +7,13 @@
 
 <p align="left"> <a href="https://twitter.com/theankansaha" target="blank"><img src="https://img.shields.io/twitter/follow/theankansaha?logo=twitter&style=for-the-badge" alt="theankansaha" /></a> </p>
 
-- 🔭 I’m currently working on [AxioDB](https://github.com/AnkanSaha/AxioDB), [Portfolio](https://github.com/AnkanSaha/Portfolio)
+- 🔭 I’m currently working on [Portfolio](https://github.com/AnkanSaha/Portfolio)
 
 - 🌱 I’m currently learning **Golang**
 
-- 👯 I’m looking to collaborate on [AxioDB](https://github.com/AnkanSaha/AxioDB)
+- 👯 I’m looking to collaborate on [AxioDB](https://github.com/Nexoral/AxioDB)
 
-- 👨‍💻 All of my projects are available at [https://github.com/AnkanSaha](https://github.com/AnkanSaha)
+- 👨‍💻 All of my best projects are available at [https://github.com/Nexoral](https://github.com/Nexoral)
 
 - 💬 Ask me about **NodeJS, MongoDB, Javascript, Typescript**
 

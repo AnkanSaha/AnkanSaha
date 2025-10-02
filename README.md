@@ -7,13 +7,13 @@
 
 <p align="left"> <a href="https://twitter.com/theankansaha" target="blank"><img src="https://img.shields.io/twitter/follow/theankansaha?logo=twitter&style=for-the-badge" alt="theankansaha" /></a> </p>
 
-- 🔭 I’m currently working on [NexoralDNS](https://github.com/NexoralDNS/NexoralDNS)
+- 🔭 I’m currently working on [NexoralDNS](https://github.com/nexoral/NexoralDNS)
 
 - 🌱 I’m currently learning **Golang**
 
-- 👯 I’m looking to collaborate on [NexoralDNS](https://github.com/Nexoral/NexoralDNS)
+- 👯 I’m looking to collaborate on [NexoralDNS](https://github.com/nexoral/NexoralDNS)
 
-- 👨‍💻 All of my best projects are available at [https://github.com/Nexoral](https://github.com/Nexoral)
+- 👨‍💻 All of my best projects are available at [https://github.com/nexoral](https://github.com/nexoral)
 
 - 💬 Ask me about **NodeJS, MongoDB, Javascript, Typescript**
 

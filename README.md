@@ -14,7 +14,6 @@
 - 👯 I’m looking to collaborate on [AxioDB](https://github.com/nexoral/AxioDB)
 
 - 👨‍💻 All of my projects are available at [https://github.com/nexoral](https://github.com/nexoral)
-
 - 💬 Ask me about **Networking, NodeJS, MongoDB, Javascript, Typescript**
 
 - 📫 How to reach me **ankan@ankan.site**

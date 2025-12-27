@@ -1,6 +1,6 @@
 const fs = require("fs");
 const https = require("https");
-const xml2js = require("xml2js");
+const { XMLParser } = require("fast-xml-parser");
 
 const RSS_URL = "https://blog.ankan.in/rss.xml";
 const README_PATH = "README.md";
@@ -8,7 +8,7 @@ const MAX_POSTS = 4;
 
 function fetchRSS(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
+    https.get(url, { headers: { "User-Agent": "github-actions" } }, (res) => {
       let data = "";
       res.on("data", chunk => data += chunk);
       res.on("end", () => resolve(data));
@@ -18,16 +18,20 @@ function fetchRSS(url) {
 
 (async () => {
   try {
-    const rssXML = await fetchRSS(RSS_URL);
+    const xml = await fetchRSS(RSS_URL);
 
-    const parsed = await xml2js.parseStringPromise(rssXML);
-    const items = parsed.rss.channel[0].item.slice(0, MAX_POSTS);
+    const parser = new XMLParser({
+      ignoreAttributes: false,
+      attributeNamePrefix: "",
+      allowBooleanAttributes: true
+    });
 
-    const blogList = items.map(item => {
-      const title = item.title[0];
-      const link = item.link[0];
-      return `- [${title}](${link})`;
-    }).join("\n");
+    const parsed = parser.parse(xml);
+    const items = parsed.rss.channel.item.slice(0, MAX_POSTS);
+
+    const blogList = items
+      .map(post => `- [${post.title}](${post.link})`)
+      .join("\n");
 
     const readme = fs.readFileSync(README_PATH, "utf-8");
 
@@ -38,7 +42,7 @@ function fetchRSS(url) {
 
     if (readme !== updatedReadme) {
       fs.writeFileSync(README_PATH, updatedReadme);
-      console.log("README updated with latest blog posts.");
+      console.log("README updated.");
     } else {
       console.log("No changes detected.");
     }

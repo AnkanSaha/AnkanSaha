@@ -1,8 +1,0 @@
-{
-  "name": "blog-fetcher",
-  "private": true,
-  "type": "commonjs",
-  "dependencies": {
-    "fast-xml-parser": "^4.3.5"
-  }
-}

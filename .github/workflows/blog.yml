@@ -1,21 +1,34 @@
-name: Latest blog post workflow
+name: Update README with latest blogs
 
 on:
-  schedule:
-    - cron: '0 * * * *'   # runs every hour
   push:
-    branches:
-      - main              # or master (use whichever your repo uses)
+    branches: [main]
+  schedule:
+    - cron: "0 */12 * * *"
 
 jobs:
-  update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+  update-blog-posts:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          max_post_count: "4"
-          feed_list: "https://blog.ankan.in/rss.xml"
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update README
+        run: node scripts/updateBlogs.js
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update blog posts"
+          git push

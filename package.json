@@ -1,0 +1,8 @@
+{
+  "name": "blog-fetcher",
+  "private": true,
+  "type": "commonjs",
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}

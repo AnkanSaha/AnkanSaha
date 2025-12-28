@@ -1,39 +1,113 @@
-<h1 align="center">Hi 👋, I'm Ankan Saha</h1>
-<h3 align="center">A Software Engineer from India ❤️ Passionate about solving problems and creating solutions</h3>
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=AnkanSaha&label=Profile%20views&color=0e75b6&style=flat" alt="AnkanSaha" /> </p>
+# 👋 Hello, I'm Ankan Saha
 
+### Software Engineer | Open Source Contributor
 
-<p align="left"> <a href="https://twitter.com/theankansaha" target="blank"><img src="https://img.shields.io/twitter/follow/theankansaha?logo=twitter&style=for-the-badge" alt="theankansaha" /></a> </p>
+[![Profile Views](https://komarev.com/ghpvc/?username=AnkanSaha&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/AnkanSaha)
+[![Twitter Follow](https://img.shields.io/twitter/follow/theankansaha?logo=twitter&style=for-the-badge)](https://twitter.com/theankansaha)
 
-- 🔭 I’m currently working on [NexoralDNS](https://github.com/nexoral/NexoralDNS)
+</div>
 
-- 🌱 I’m currently learning **Golang, Networking, System Design, DevOps**
+---
 
-- 👯 I’m looking to collaborate on [AxioDB](https://github.com/nexoral/AxioDB)
+## 🚀 About Me
 
-- 🤝 I’m looking for help with [AxioDB](https://github.com/nexoral/AxioDB)
+Software Engineer from India specializing in **networking protocols**, **distributed systems**, and **backend development**. I focus on understanding how things work at a fundamental level, which led me to build infrastructure tools like DNS servers and NoSQL databases from the ground up.
 
-- 👨‍💻 All of my projects are available at [https://github.com/orgs/nexoral](https://github.com/orgs/nexoral)
+- 🔭 **Currently Building:** [NexoralDNS](https://github.com/nexoral/NexoralDNS) - A DNS server implementation written in Go
+- 🌱 **Exploring:** Golang internals, Network stack implementations, Database design patterns
+- 👯 **Collaborating On:** [AxioDB](https://github.com/nexoral/AxioDB) - A custom NoSQL database built with Node.js & TypeScript
+- 💼 **Organization:** [Nexoral](https://github.com/orgs/nexoral) - Where I host my infrastructure and tooling projects
+- 📝 **Writing At:** [blog.ankan.in](http://blog.ankan.in) - Technical deep-dives and implementation notes
+- 💬 **Talk to me about:** DNS, TCP/IP, Message queues, Database internals, Node.js runtime
+- 📫 **Email:** [connect@ankan.in](mailto:connect@ankan.in)
 
-- 📝 I regularly write articles on [http://blog.ankan.in](http://blog.ankan.in)
+> 💡 **Fun Fact:** I once spent three weeks debugging a DNS query issue only to discover it was caused by a single misplaced byte in the packet header. That's when I decided to build my own DNS server to never get confused by RFC 1035 again.
 
-- 💬 Ask me about **Networking, Node.js, NoSQL DB, Javascript, Typescript**
+---
 
-- 📫 How to reach me **connect@ankan.in**
+## 🛠️ Technical Skills
 
-- ⚡ Fun fact **Out of sheer curiosity, I ended up building my own DNS server to understand how the internet really works.**
+### Languages
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://dev.to/AnkanSaha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="AnkanSaha" height="30" width="40" /></a>
-<a href="https://twitter.com/theankansaha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="theankansaha" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/theankansaha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="theankansaha" height="30" width="40" /></a>
-<a href="https://fb.com/theankansaha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="theankansaha" height="30" width="40" /></a>
-<a href="https://instagram.com/theankansaha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="theankansaha" height="30" width="40" /></a>
-<a href="https://hashnode.com/@theankansaha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hashnode.svg" alt="@theankansaha" height="30" width="40" /></a>
-<a href="https://blog.ankan.in/rss.xml" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://blog.ankan.in/rss.xml" height="30" width="40" /></a>
+### Backend & Runtime
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+
+### Frontend & Frameworks
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
+
+### Databases & Caching
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
+### Message Queues & Streaming
+![Apache Kafka](https://img.shields.io/badge/-Apache_Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+
+### DevOps & Infrastructure
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+
+### CI/CD & Version Control
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![CircleCI](https://img.shields.io/badge/-CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)
+
+---
+
+## 🎯 Featured Projects
+
+### [NexoralDNS](https://github.com/nexoral/NexoralDNS)
+A DNS server built from scratch in Go that handles RFC 1035 compliant queries. Implements recursive resolution, caching, and zone file parsing. Created to understand DNS internals and network protocol implementation.
+
+**Tech Stack:** Go, UDP/TCP networking, Binary protocol parsing
+
+### [AxioDB](https://github.com/nexoral/AxioDB)
+A custom NoSQL database engine written in Node.js with TypeScript. Features in-memory indexing, persistent storage, and a query API. Built to explore database design patterns and storage optimization techniques.
+
+**Tech Stack:** Node.js, TypeScript, Buffer manipulation, File I/O
+
+### [More Projects →](https://github.com/orgs/nexoral)
+Additional infrastructure and tooling projects available at the Nexoral organization.
+
+---
+
+## 📝 Blog & Writing
+
+Technical articles covering networking, infrastructure, and low-level programming:
+
+🔗 **[blog.ankan.in](http://blog.ankan.in)** - Implementation notes and protocol deep-dives
+
+📡 **[RSS Feed](https://blog.ankan.in/rss.xml)** - Subscribe for updates
+
+---
+
+## 🤝 Connect With Me
+
+<p align="center">
+<a href="https://linkedin.com/in/theankansaha" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://twitter.com/theankansaha" target="_blank"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
+<a href="https://dev.to/AnkanSaha" target="_blank"><img src="https://img.shields.io/badge/-Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to"/></a>
+<a href="https://hashnode.com/@theankansaha" target="_blank"><img src="https://img.shields.io/badge/-Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" alt="Hashnode"/></a>
+<a href="https://instagram.com/theankansaha" target="_blank"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<a href="mailto:connect@ankan.in"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://circleci.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/circleci/circleci-icon.svg" alt="circleci" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+---
+
+<div align="center">
+
+### 💼 Open to technical collaborations and interesting projects
+
+</div>

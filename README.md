@@ -1,11 +1,11 @@
 <div align="center">
 
-# 👋 Hello, I'm Ankan Saha
+# 👋 Hey, I'm Ankan Saha
 
 ### Software Engineer | Open Source Contributor
 
 [![Profile Views](https://komarev.com/ghpvc/?username=AnkanSaha&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/AnkanSaha)
-[![Twitter Follow](https://img.shields.io/twitter/follow/theankansaha?logo=twitter&style=for-the-badge)](https://twitter.com/theankansaha)
+[![Twitter Follow](https://img.shields.io/twitter/follow/theankansaha?logo=twitter&style=flat)](https://twitter.com/theankansaha)
 
 </div>
 
@@ -13,17 +13,17 @@
 
 ## 🚀 About Me
 
-Software Engineer from India specializing in **networking protocols**, **distributed systems**, and **backend development**. I focus on understanding how things work at a fundamental level, which led me to build infrastructure tools like DNS servers and NoSQL databases from the ground up.
+Software Engineer from India. Started with "how does this even work?" and ended up reading documentation at 3 AM to find out. One thing led to another, and now I build the tools I once struggled to understand. Specializing in **networking protocols**, **distributed systems**, and **backend development**.
 
-- 🔭 **Currently Building:** [NexoralDNS](https://github.com/nexoral/NexoralDNS) - A DNS server implementation written in Go
-- 🌱 **Exploring:** Golang internals, Network stack implementations, Database design patterns
+- 🔭 **Currently Building:** [NexoralDNS](https://github.com/nexoral/NexoralDNS) - A Docker-based DNS server for LANs
+- 🌱 **Learning:** Database design, Database internals, Networking, Golang, Node.js internals
 - 👯 **Collaborating On:** [AxioDB](https://github.com/nexoral/AxioDB) - A custom NoSQL database built with Node.js & TypeScript
 - 💼 **Organization:** [Nexoral](https://github.com/orgs/nexoral) - Where I host my infrastructure and tooling projects
-- 📝 **Writing At:** [blog.ankan.in](http://blog.ankan.in) - Technical deep-dives and implementation notes
+- 📝 **Writing At:** [blog.ankan.in](http://blog.ankan.in) - Documenting what I experience and learn
 - 💬 **Talk to me about:** DNS, TCP/IP, Message queues, Database internals, Node.js runtime
 - 📫 **Email:** [connect@ankan.in](mailto:connect@ankan.in)
 
-> 💡 **Fun Fact:** I once spent three weeks debugging a DNS query issue only to discover it was caused by a single misplaced byte in the packet header. That's when I decided to build my own DNS server to never get confused by RFC 1035 again.
+> 💡 **Fun Fact:** I get my best project ideas in the washroom. 🚽 Every single repo I've built started as a shower thought. My brain works best at 3 AM sitting on the toilet. 😂
 
 ---
 
@@ -47,6 +47,7 @@ Software Engineer from India specializing in **networking protocols**, **distrib
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
 
 ### Databases & Caching
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
@@ -62,6 +63,7 @@ Software Engineer from India specializing in **networking protocols**, **distrib
 
 ### CI/CD & Version Control
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![CircleCI](https://img.shields.io/badge/-CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)
 
 ---
@@ -69,14 +71,40 @@ Software Engineer from India specializing in **networking protocols**, **distrib
 ## 🎯 Featured Projects
 
 ### [NexoralDNS](https://github.com/nexoral/NexoralDNS)
-A DNS server built from scratch in Go that handles RFC 1035 compliant queries. Implements recursive resolution, caching, and zone file parsing. Created to understand DNS internals and network protocol implementation.
+Docker-based smart DNS server for Local Area Networks with custom domain management, DNS traffic monitoring, and security filtering. Features web-based management interface and Docker deployment. Built with Node.js and TypeScript using dgram for UDP/TCP socket handling, Fastify for the API layer, and Next.js for the management dashboard.
 
-**Tech Stack:** Go, UDP/TCP networking, Binary protocol parsing
+**Why built:** Ever edited `/etc/hosts` on five different machines just to test one local domain? Ever wanted your own DNS server for your home lab without exposing it to the internet? That's why this exists.
+
+**Problem solved:** Eliminates the hassle of managing `/etc/hosts` files across multiple machines, provides network-wide custom domain resolution, and adds security filtering for home/office networks.
+
+**Tech Stack:** Node.js, TypeScript, Docker, dgram, Fastify, Next.js
 
 ### [AxioDB](https://github.com/nexoral/AxioDB)
-A custom NoSQL database engine written in Node.js with TypeScript. Features in-memory indexing, persistent storage, and a query API. Built to explore database design patterns and storage optimization techniques.
+Lightweight embedded NoSQL database for Node.js applications. Pure JavaScript alternative to SQLite with MongoDB-style queries, AES-256 encryption, zero native dependencies, and built-in web GUI. Uses tree-like file structure for fast retrieval and worker threads for parallel processing. Optimized for 10K-500K documents.
 
-**Tech Stack:** Node.js, TypeScript, Buffer manipulation, File I/O
+**Why built:** Ever tried deploying an Electron app only to have SQLite fail because of missing native bindings? Ever spent hours rebuilding node-gyp dependencies for different platforms? Yeah, me too. Never again.
+
+**Problem solved:** Provides MongoDB-like experience without requiring a separate database server, perfect for desktop apps, embedded systems, and rapid prototyping where SQLite's native bindings cause cross-platform headaches.
+
+**Tech Stack:** Node.js, TypeScript, Worker Threads, Filesystem APIs
+
+### [xpack](https://github.com/nexoral/xpack)
+Universal Linux package builder that converts standalone binaries into native package formats (.deb, .rpm, tar.gz). Automates the creation of reproducible packages with configurable metadata, installation scripts, and service files. Designed for CI pipelines and Linux software maintainers.
+
+**Why built:** Ever created a .deb package manually and then realized you need an .rpm too? Ever copy-pasted DEBIAN control files and forgot to update the version? Built this to stop the madness.
+
+**Problem solved:** Streamlines the packaging process for Linux software distribution, automating repetitive tasks like metadata generation and file layout management. Makes CI/CD packaging simple with one command.
+
+**Tech Stack:** Go, Linux packaging formats
+
+### [ContainDB](https://github.com/nexoral/ContainDB)
+CLI tool for automating containerized database management. Provides instant setup of MongoDB, Redis, MySQL, PostgreSQL, and MariaDB with one-click installation of management tools (phpMyAdmin, pgAdmin, RedisInsight). Features Docker network integration, data persistence, and Docker Compose export/import capabilities.
+
+**Why built:** Ever faced "core dumped" errors while installing MongoDB on your local Linux machine? Ever spent three hours debugging Docker network configurations just to connect pgAdmin to PostgreSQL? This tool was born from that pain.
+
+**Problem solved:** Turns database environment setup from a multi-hour debugging session into a single command. Solves version compatibility issues, complex Docker configurations, and provides consistent development databases across teams.
+
+**Tech Stack:** Go, Docker, CLI
 
 ### [More Projects →](https://github.com/orgs/nexoral)
 Additional infrastructure and tooling projects available at the Nexoral organization.

@@ -79,12 +79,12 @@ Docker-based smart DNS server for Local Area Networks with custom domain managem
 
 **Tech Stack:** Node.js, TypeScript, Docker, dgram, Fastify, Next.js
 
-### [AxioDB](https://github.com/nexoral/AxioDB)
-Lightweight embedded NoSQL database for Node.js applications. Pure JavaScript alternative to SQLite with MongoDB-style queries, AES-256 encryption, zero native dependencies, and built-in web GUI. Uses tree-like file structure for fast retrieval and worker threads for parallel processing. Optimized for 10K-500K documents.
+### [AxioDB](https://github.com/nexoral/AxioDB) ![NPM Downloads](https://img.shields.io/badge/npm-2000%2B%20downloads-brightgreen)
+Lightweight embedded NoSQL database for Node.js applications. Pure JavaScript alternative to SQLite with MongoDB-style queries, AES-256 encryption, zero native dependencies, and built-in web GUI at `localhost:27018`. Uses tree-like file structure for fast retrieval and worker threads for parallel processing. Optimized for 10K-500K documents.
 
-**Why built:** Ever tried deploying an Electron app only to have SQLite fail because of missing native bindings? Ever spent hours rebuilding node-gyp dependencies for different platforms? Yeah, me too. Never again.
+**Why built:** Started building an Electron app and needed local storage. Tried JSON files first—worked fine with 50 records, got painfully slow at 1K+. Switched to SQLite, spent 6 hours fighting `node-gyp` rebuild errors across Windows and Mac. Deployed to production, got native binding errors. That weekend, I built AxioDB—pure JavaScript, no native dependencies, works everywhere Node.js runs. **2000+ downloads on NPM** later, turns out I wasn't the only one tired of this struggle.
 
-**Problem solved:** Provides MongoDB-like experience without requiring a separate database server, perfect for desktop apps, embedded systems, and rapid prototyping where SQLite's native bindings cause cross-platform headaches.
+**Problem solved:** AxioDB gives you MongoDB-like queries (`find`, `insert`, `update`, `delete`, `aggregate`) without the hassle. Just `npm install axiodb` and you have a database—no `mongod` process, no native bindings, no cross-platform compilation nightmares. Perfect for Electron apps, CLI tools, small websites, and anywhere you need a lightweight database that just works.
 
 **Tech Stack:** Node.js, TypeScript, Worker Threads, Filesystem APIs
 

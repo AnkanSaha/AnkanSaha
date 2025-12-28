@@ -91,7 +91,7 @@ Lightweight embedded NoSQL database for Node.js applications. Pure JavaScript al
 ### [xpack](https://github.com/nexoral/xpack)
 Universal Linux package builder that converts standalone binaries into native package formats (.deb, .rpm, tar.gz). Automates the creation of reproducible packages with configurable metadata, installation scripts, and service files. Designed for CI pipelines and Linux software maintainers.
 
-**Why built:** Ever created a .deb package manually and then realized you need an .rpm too? Ever copy-pasted DEBIAN control files and forgot to update the version? Built this to stop the madness.
+**Why built:** I know many friends who code in C, Golang, Rust—they build, run `./bin`, and it works. But ever thought about how to ship your binary to real users who install packages with `sudo dpkg -i`? That gap between "it works on my machine" and actual distribution is why this exists.
 
 **Problem solved:** Streamlines the packaging process for Linux software distribution, automating repetitive tasks like metadata generation and file layout management. Makes CI/CD packaging simple with one command.
 

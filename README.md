@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hey, I'm Ankan Saha
+# 👋 Hey, I'm Ankan
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3178C6&center=true&vCenter=true&width=600&lines=Software+Engineer;Open+Source+Contributor" alt="Typing SVG" />
 

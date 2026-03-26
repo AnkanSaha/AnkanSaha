@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3178C6&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Backend+Engineer;Open+Source+Contributor" alt="Typing SVG" />
 
-**📍 Kolkata, India** | **📞 +91-7063355213** | **📧 connect@ankan.in** | **💼 2 Years Experience**
+**📍 Kolkata, India** | **📧 connect@ankan.in** | **💼 2 Years Experience**
 
 Backend-focused Engineer specializing in JavaScript, TypeScript, and Node.js. Maintained infrastructure for production systems serving **10M+ users** at Hoichoi Technologies. Reduced infrastructure costs through architectural migration to Cloudflare Workers. Built and shipped embedded NoSQL database to NPM with **2,000+ downloads**.
 
@@ -94,15 +94,19 @@ IoT Smart Lock System for remote access control
 ### Backend & Runtime
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
+![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
 
 ### Frontend & Frameworks
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Redux Toolkit](https://img.shields.io/badge/-Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
 
 ### Databases & Caching
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
@@ -113,6 +117,7 @@ IoT Smart Lock System for remote access control
 ### DevOps & Infrastructure
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/-Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 
@@ -120,6 +125,10 @@ IoT Smart Lock System for remote access control
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![CircleCI](https://img.shields.io/badge/-CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)
+
+### AI & Integration
+![OpenAI](https://img.shields.io/badge/-OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/-Gemini_API-8E75B2?style=flat-square&logo=google-gemini&logoColor=white)
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
 

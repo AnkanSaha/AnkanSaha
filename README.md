@@ -1,13 +1,18 @@
 <div align="center">
 
-# 👋 Hey, I'm Ankan
+# Ankan Saha - Full Stack Developer
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3178C6&center=true&vCenter=true&width=600&lines=Software+Engineer;Open+Source+Contributor" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3178C6&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Backend+Engineer;Open+Source+Contributor" alt="Typing SVG" />
 
-[![Profile Views](https://komarev.com/ghpvc/?username=AnkanSaha&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/AnkanSaha)
-[![Twitter Follow](https://img.shields.io/twitter/follow/theankansaha?logo=twitter&style=flat)](https://twitter.com/theankansaha)
+**📍 Kolkata, India** | **📞 +91-7063355213** | **📧 connect@ankan.in** | **💼 2 Years Experience**
+
+Backend-focused Engineer specializing in JavaScript, TypeScript, and Node.js. Maintained infrastructure for production systems serving **10M+ users** at Hoichoi Technologies. Reduced infrastructure costs through architectural migration to Cloudflare Workers. Built and shipped embedded NoSQL database to NPM with **2,000+ downloads**.
+
+[![Website](https://img.shields.io/badge/-Portfolio-00ADD8?style=flat-square&logo=google-chrome&logoColor=white)](https://ankan.in)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/theankansaha)
 [![GitHub followers](https://img.shields.io/github/followers/AnkanSaha?label=Followers&style=flat&logo=github)](https://github.com/AnkanSaha)
 [![GitHub stars](https://img.shields.io/github/stars/AnkanSaha?label=Stars&style=flat&logo=github)](https://github.com/AnkanSaha)
+[![Profile Views](https://komarev.com/ghpvc/?username=AnkanSaha&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/AnkanSaha)
 
 </div>
 
@@ -15,21 +20,65 @@
 
 ## 🚀 About Me
 
-Software Engineer from India. Started with "how does this even work?" and ended up reading documentation at 3 AM to find out. One thing led to another, and now I build the tools I once struggled to understand. Specializing in **networking protocols**, **distributed systems**, and **backend development**.
+I'm **Ankan Saha**, a **Full Stack Developer** from **Kolkata, India** with **2 years of professional experience** specializing in **backend development**, **distributed systems**, and **networking protocols**. I build production-ready infrastructure tools with **Node.js**, **TypeScript**, and **Go**.
 
-- 🔭 **Currently Building:** [NexoralDNS](https://github.com/nexoral/NexoralDNS) - A Docker-based DNS server for LANs
+Previously **Full Stack Developer at Hoichoi Technologies** (leading OTT platform with 10M+ users), where I reduced infrastructure costs through Cloudflare Workers migration. Also worked as **Software Engineer at Openweb Solutions** (AI-powered CCTV SaaS) and **Junior Developer at Excellis IT** (IoT Smart Lock systems).
+
+- 🔭 **Currently Building:** [NexoralDNS](https://github.com/nexoral/NexoralDNS) - High-performance DNS server achieving 8,050+ QPS with 0.00% packet loss
 - 🌱 **Learning:** Database design, Database internals, Networking, Golang, Node.js internals
-- 👯 **Collaborating On:** [AxioDB](https://github.com/nexoral/AxioDB) - A custom NoSQL database built with Node.js & TypeScript
+- 👯 **Maintaining:** [AxioDB](https://github.com/nexoral/AxioDB) - Embedded NoSQL database with 2,000+ NPM downloads
 - 💼 **Organization:** [Nexoral](https://github.com/orgs/nexoral) - Where I host my infrastructure and tooling projects
 - 📝 **Writing At:** [blog.ankan.in](http://blog.ankan.in) - Documenting what I experience and learn
-- 💬 **Talk to me about:** DNS, TCP/IP, Message queues, Database internals, Node.js runtime
+- 💬 **Talk to me about:** DNS, TCP/IP, Message queues, Database internals, Node.js runtime, Video streaming infrastructure
 - 📫 **Email:** [connect@ankan.in](mailto:connect@ankan.in)
 
-> 💡 **Fun Fact:** I get my best project ideas in the washroom. 🚽 Every single repo I've built started as a shower thought. My brain works best at 3 AM sitting on the toilet. 😂
+> 💡 **Fun Fact:** Most of my projects originate from real pain points I've encountered in development workflows - from fighting native dependency compilation issues to managing DNS across home lab networks. Every repository I've built started as a solution to a problem that frustrated me enough to fix it properly.
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
+
+## 💼 Professional Experience
+
+### Full Stack Developer | [Hoichoi Technologies](https://www.hoichoi.tv/)
+*July 2025 – March 2026 | Kolkata, India*
+
+Leading OTT streaming platform serving **10M+ users**
+
+- ⚡ Engineered website migration to Cloudflare Workers, significantly reducing infrastructure costs and improving performance
+- 🎯 Maintained and designed REST APIs powering video delivery, user authentication, and subscription management
+- 🚀 Implemented deployment automation reducing release cycles and operational overhead
+- **Tech Stack:** Node.js, TypeScript, Cloudflare Workers, REST APIs, Video Streaming
+
+### Software Engineer | Openweb Solutions
+*September 2024 – July 2025 | Kolkata, India*
+
+AI-powered CCTV SaaS platform for real-time threat detection
+
+- 📹 Built backend infrastructure for RTSP video stream pipeline handling **40+ concurrent camera feeds** for real-time AI inference
+- ⚡ Rearchitected video ingestion from buffered batch processing to direct streaming pipeline, eliminating accumulated frame delay
+- 🔧 Developed internal management tool (React + Node.js) automating contract generation and client onboarding workflows
+- 🎯 Designed and maintained backend APIs supporting real-time video processing and threat detection features
+- **Tech Stack:** Node.js, RTSP, React, MQTT, WebSockets, AI Integration
+
+### Junior Software Developer | Excellis IT
+*April 2024 – September 2024 | Kolkata, India*
+
+IoT Smart Lock System for remote access control
+
+- 🔐 Developed backend for Smart Lock IoT system using Node.js/MQTT, supporting **200+ live devices** with real-time control
+- 🔄 Improved device connectivity stability by rewriting WebSocket handling with exponential backoff reconnection strategy
+- 📡 Implemented real-time device state synchronization and remote lock/unlock capabilities
+- **Tech Stack:** Node.js, MQTT, WebSocket, IoT Protocols
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
 
 ## 🛠️ Technical Skills
+
+**2 years of production experience** with JavaScript, TypeScript, and Node.js ecosystem. Built and maintained systems serving 10M+ users, handling 40+ concurrent video streams, and managing 200+ IoT devices in production.
+
+**Core Expertise:** Node.js, TypeScript, JavaScript, Express.js, Fastify, NestJS, React.js, Next.js, Golang
+**Databases & Messaging:** MongoDB, Redis, Redis Streams, RabbitMQ, SQL, Database Internals
+**DevOps & Cloud:** Docker, AWS Lambda, Cloudflare Workers, Nginx, Linux, CI/CD, Git
+**Specialized:** Video Streaming (FFmpeg, RTSP), IoT (MQTT, WebSockets), Microservices Architecture, RESTful APIs, GraphQL
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=3178C6&center=true&vCenter=true&width=600&lines=JavaScript+%7C+TypeScript+%7C+Go;Node.js+%7C+React+%7C+Next.js;Docker+%7C+AWS+%7C+Linux;MongoDB+%7C+Redis+%7C+Kafka" alt="Tech Stack" />
@@ -74,6 +123,18 @@ Software Engineer from India. Started with "how does this even work?" and ended 
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
 
+## 🎓 Education
+
+**Bachelor of Arts** – Art Studies
+**University of Kalyani** | October 2021 – October 2024 | Kolkata, India
+
+**Languages:**
+- **Bengali** (Native)
+- **Hindi** (Professional Working Proficiency)
+- **English** (Professional Working Proficiency)
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
+
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -91,16 +152,18 @@ Software Engineer from India. Started with "how does this even work?" and ended 
 </p>
 
 ### [NexoralDNS](https://github.com/nexoral/NexoralDNS)
-Docker-based smart DNS server for Local Area Networks with custom domain management, DNS traffic monitoring, and security filtering. Features web-based management interface and Docker deployment. Built with Node.js and TypeScript using dgram for UDP/TCP socket handling, Fastify for the API layer, and Next.js for the management dashboard.
+High-performance Docker-based DNS server for Local Area Networks achieving **8,050+ QPS** with **0.00% packet loss** under 500 concurrent clients. Built from scratch with custom UDP packet parsing, Redis caching, and Change Streams. Features web-based management interface and Docker deployment. Built with Node.js and TypeScript using dgram for UDP/TCP socket handling, Fastify for the API layer, and Next.js for the management dashboard.
 
 **Why built:** Ever edited `/etc/hosts` on five different machines just to test one local domain? Ever wanted your own DNS server for your home lab without exposing it to the internet? That's why this exists.
 
-**Problem solved:** Eliminates the hassle of managing `/etc/hosts` files across multiple machines, provides network-wide custom domain resolution, and adds security filtering for home/office networks.
+**Problem solved:** Eliminates the hassle of managing `/etc/hosts` files across multiple machines, provides network-wide custom domain resolution with enterprise-grade performance (8,050+ QPS, 9-worker cluster), and adds security filtering for home/office networks.
 
-**Tech Stack:** Node.js, TypeScript, Docker, dgram, Fastify, Next.js
+**Performance:** 8,050+ QPS throughput, 0.00% packet loss, handles 500 concurrent clients, Redis-backed caching layer
+
+**Tech Stack:** Node.js, TypeScript, Docker, dgram, Redis, MongoDB, Fastify, Next.js
 
 ### [AxioDB](https://github.com/nexoral/AxioDB) ![NPM Downloads](https://img.shields.io/badge/npm-2000%2B%20downloads-brightgreen)
-Lightweight embedded NoSQL database for Node.js applications. Pure JavaScript alternative to SQLite with MongoDB-style queries, AES-256 encryption, zero native dependencies, and built-in web GUI at `localhost:27018`. Uses tree-like file structure for fast retrieval and worker threads for parallel processing. Optimized for 10K-500K documents.
+Lightweight embedded NoSQL database for Node.js applications. Pure JavaScript alternative to SQLite with MongoDB-style queries, zero native dependencies, and built-in web GUI at `localhost:27018`. Uses tree-like file structure for fast retrieval and worker threads for parallel processing. Optimized for 10K-500K documents.
 
 **Why built:** Started building an Electron app and needed local storage. Tried JSON files first—worked fine with 50 records, got painfully slow at 1K+. Switched to SQLite, spent 6 hours fighting `node-gyp` rebuild errors across Windows and Mac. Deployed to production, got native binding errors. That weekend, I built AxioDB—pure JavaScript, no native dependencies, works everywhere Node.js runs. **2000+ downloads on NPM** later, turns out I wasn't the only one tired of this struggle.
 
@@ -114,6 +177,8 @@ Universal Linux package builder that converts standalone binaries into native pa
 **Why built:** I know many friends who code in C, Golang, Rust—they build, run `./bin`, and it works. But ever thought about how to ship your binary to real users who install packages with `sudo dpkg -i`? That gap between "it works on my machine" and actual distribution is why this exists.
 
 **Problem solved:** Streamlines the packaging process for Linux software distribution, automating repetitive tasks like metadata generation and file layout management. Makes CI/CD packaging simple with one command.
+
+**In Production:** Currently used in ContainDB's Linux version packager for automated CI/CD pipeline builds.
 
 **Tech Stack:** Go, Linux packaging formats
 
@@ -146,9 +211,9 @@ Additional infrastructure and tooling projects available at the Nexoral organiza
   <img src="https://img.shields.io/badge/GitHub-Nexoral_Org-181717?style=for-the-badge&logo=github&logoColor=white" alt="Nexoral GitHub"/>
 </a>
 
-Personal profile = where "it works on my machine" experiments live. **Nexoral** = where I pretend to be a responsible adult with proper CI/CD and commit messages longer than "fix stuff".
+Personal profile = where experimental features and proof-of-concepts live. **Nexoral** = production-grade projects with proper CI/CD, comprehensive documentation, and structured development workflows.
 
-One closet is organized, the other just hopes the door stays closed. 🧪⚙️
+Two approaches to software development: rapid prototyping for innovation, and disciplined engineering for production systems. 🧪⚙️
 
 **🌐 [nexoral.in](https://nexoral.in)** - Official website and documentation
 
@@ -189,10 +254,10 @@ Writing about what I experience while building stuff:
 ### 💼 Open to technical collaborations and interesting projects
 
 ```diff
-+ Building the future, one commit at a time
-- Closed to boring problems
-! Always shipping production-ready code
-# Code • Deploy • Iterate
++ Building production-grade infrastructure, one commit at a time
++ Open to challenging technical problems and collaborations
+! Always shipping well-tested, production-ready code
+# Design • Build • Deploy • Iterate
 ```
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Happy%20Coding!&fontSize=40&fontAlignY=70&animation=twinkling&fontColor=fff" width="100%"/>

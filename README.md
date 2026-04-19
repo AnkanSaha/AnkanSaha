@@ -1,12 +1,17 @@
 <div align="center">
 
-# Ankan Saha - Full Stack Developer
+# Ankan Saha - Backend Engineer
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3178C6&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Backend+Engineer;Open+Source+Contributor" alt="Typing SVG" />
+*Backend-focused engineer specializing in infrastructure tools and distributed systems*
 
 **📍 Kolkata, India** | **📧 connect@ankan.in** | **💼 2 Years Experience**
 
-Backend-focused Engineer specializing in JavaScript, TypeScript, and Node.js. Maintained infrastructure for production systems serving **10M+ users** at Hoichoi Technologies. Reduced infrastructure costs through architectural migration to Cloudflare Workers. Built and shipped embedded NoSQL database to NPM with **2,000+ downloads**.
+---
+
+**🎯 Actively seeking Backend Engineer roles** — Immediate availability (Remote or Kolkata-based)
+**📄 Resume:** [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.pdf)
+
+---
 
 [![Website](https://img.shields.io/badge/-Portfolio-00ADD8?style=flat-square&logo=google-chrome&logoColor=white)](https://ankan.in)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/theankansaha)
@@ -20,56 +25,11 @@ Backend-focused Engineer specializing in JavaScript, TypeScript, and Node.js. Ma
 
 ## 🚀 About Me
 
-I'm **Ankan Saha**, a **Full Stack Developer** from **Kolkata, India** with **2 years of professional experience** specializing in **backend development**, **distributed systems**, and **networking protocols**. I build production-ready infrastructure tools with **Node.js**, **TypeScript**, and **Go**.
+Backend Engineer building production-ready infrastructure tools and distributed systems. Maintained systems serving **10M+ users** at Hoichoi (OTT platform), built [AxioDB](https://github.com/nexoral/AxioDB) (embedded NoSQL database with **2,000+ NPM downloads**), and currently developing [NexoralDNS](https://github.com/nexoral/NexoralDNS) - a high-performance DNS server achieving **8,050+ QPS** with 0.00% packet loss.
 
-Previously **Full Stack Developer at Hoichoi Technologies** (leading OTT platform with 10M+ users), where I reduced infrastructure costs through Cloudflare Workers migration. Also worked as **Software Engineer at Openweb Solutions** (AI-powered CCTV SaaS) and **Junior Developer at Excellis IT** (IoT Smart Lock systems).
+**Focus areas:** Database internals, networking protocols (DNS, TCP/IP), distributed systems, Node.js runtime architecture. I build tools that solve real problems I've encountered - from dependency compilation nightmares to home lab DNS management. All projects organized under [Nexoral](https://github.com/orgs/nexoral) for production-grade development workflows.
 
-- 🔭 **Currently Building:** [NexoralDNS](https://github.com/nexoral/NexoralDNS) - High-performance DNS server achieving 8,050+ QPS with 0.00% packet loss
-- 🌱 **Learning:** Database design, Database internals, Networking, Golang, Node.js internals
-- 👯 **Maintaining:** [AxioDB](https://github.com/nexoral/AxioDB) - Embedded NoSQL database with 2,000+ NPM downloads
-- 💼 **Organization:** [Nexoral](https://github.com/orgs/nexoral) - Where I host my infrastructure and tooling projects
-- 📝 **Writing At:** [blog.ankan.in](http://blog.ankan.in) - Documenting what I experience and learn
-- 💬 **Talk to me about:** DNS, TCP/IP, Message queues, Database internals, Node.js runtime, Video streaming infrastructure
-- 📫 **Email:** [connect@ankan.in](mailto:connect@ankan.in)
-
-> 💡 **Fun Fact:** Most of my projects originate from real pain points I've encountered in development workflows - from fighting native dependency compilation issues to managing DNS across home lab networks. Every repository I've built started as a solution to a problem that frustrated me enough to fix it properly.
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
-
-## 💼 Professional Experience
-
-### Full Stack Developer | [Hoichoi Technologies](https://www.hoichoi.tv/)
-*July 2025 – March 2026 | Kolkata, India*
-
-Leading OTT streaming platform serving **10M+ users**
-
-- ⚡ Engineered website migration to Cloudflare Workers, significantly reducing infrastructure costs and improving performance
-- 🎯 Maintained and designed REST APIs powering video delivery, user authentication, and subscription management
-- 🚀 Implemented deployment automation reducing release cycles and operational overhead
-- **Tech Stack:** Node.js, TypeScript, Cloudflare Workers, REST APIs, Video Streaming
-
-### Software Engineer | Openweb Solutions
-*September 2024 – July 2025 | Kolkata, India*
-
-AI-powered CCTV SaaS platform for real-time threat detection
-
-- 📹 Built backend infrastructure for RTSP video stream pipeline handling **40+ concurrent camera feeds** for real-time AI inference
-- ⚡ Rearchitected video ingestion from buffered batch processing to direct streaming pipeline, eliminating accumulated frame delay
-- 🔧 Developed internal management tool (React + Node.js) automating contract generation and client onboarding workflows
-- 🎯 Designed and maintained backend APIs supporting real-time video processing and threat detection features
-- **Tech Stack:** Node.js, RTSP, React, MQTT, WebSockets, AI Integration
-
-### Junior Software Developer | Excellis IT
-*April 2024 – September 2024 | Kolkata, India*
-
-IoT Smart Lock System for remote access control
-
-- 🔐 Developed backend for Smart Lock IoT system using Node.js/MQTT, supporting **200+ live devices** with real-time control
-- 🔄 Improved device connectivity stability by rewriting WebSocket handling with exponential backoff reconnection strategy
-- 📡 Implemented real-time device state synchronization and remote lock/unlock capabilities
-- **Tech Stack:** Node.js, MQTT, WebSocket, IoT Protocols
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
+---
 
 ## 🛠️ Technical Skills
 
@@ -80,85 +40,15 @@ IoT Smart Lock System for remote access control
 **DevOps & Cloud:** Docker, AWS Lambda, Cloudflare Workers, Nginx, Linux, CI/CD, Git
 **Specialized:** Video Streaming (FFmpeg, RTSP), IoT (MQTT, WebSockets), Microservices Architecture, RESTful APIs, GraphQL
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=3178C6&center=true&vCenter=true&width=600&lines=JavaScript+%7C+TypeScript+%7C+Go;Node.js+%7C+React+%7C+Next.js;Docker+%7C+AWS+%7C+Linux;MongoDB+%7C+Redis+%7C+Kafka" alt="Tech Stack" />
-</p>
+**Core Stack (2 years production):** Node.js, TypeScript, JavaScript, Express.js, Fastify, NestJS, React.js, Next.js, Golang
+**Databases & Messaging:** MongoDB, Redis, Redis Streams, RabbitMQ, SQL, Apache Kafka
+**Infrastructure & DevOps:** Docker, AWS Lambda, Cloudflare Workers, Nginx, Linux, Git, GitHub Actions, CircleCI
+**Specialized:** Video Streaming (FFmpeg, RTSP), IoT (MQTT, WebSockets), RESTful APIs, GraphQL
+**Additional:** Firebase, OpenAI API, Gemini API
 
-### Languages
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
-
-### Backend & Runtime
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-
-### Frontend & Frameworks
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Redux Toolkit](https://img.shields.io/badge/-Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
-
-### Databases & Caching
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-
-### Message Queues & Streaming
-![Apache Kafka](https://img.shields.io/badge/-Apache_Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-
-### DevOps & Infrastructure
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Cloudflare Workers](https://img.shields.io/badge/-Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-
-### CI/CD & Version Control
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![CircleCI](https://img.shields.io/badge/-CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)
-
-### AI & Integration
-![OpenAI](https://img.shields.io/badge/-OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/-Gemini_API-8E75B2?style=flat-square&logo=google-gemini&logoColor=white)
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
-
-## 🎓 Education
-
-**Bachelor of Arts** – Art Studies
-**University of Kalyani** | October 2021 – October 2024 | Kolkata, India
-
-**Languages:**
-- **Bengali** (Native)
-- **Hindi** (Professional Working Proficiency)
-- **English** (Professional Working Proficiency)
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AnkanSaha&theme=tokyo-night&hide_border=true&custom_title=Contribution%20Activity%20Graph" alt="Activity Graph" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
+---
 
 ## 🎯 Featured Projects
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=F7DF1E&center=true&vCenter=true&width=700&lines=Production-Ready+Infrastructure+Tools;Built+With+Real-World+Problems" alt="Projects" />
-</p>
 
 ### [NexoralDNS](https://github.com/nexoral/NexoralDNS)
 High-performance Docker-based DNS server for Local Area Networks achieving **8,050+ QPS** with **0.00% packet loss** under 500 concurrent clients. Built from scratch with custom UDP packet parsing, Redis caching, and Change Streams. Features web-based management interface and Docker deployment. Built with Node.js and TypeScript using dgram for UDP/TCP socket handling, Fastify for the API layer, and Next.js for the management dashboard.
@@ -203,50 +93,12 @@ CLI tool for automating containerized database management. Provides instant setu
 ### [More Projects →](https://github.com/orgs/nexoral)
 Additional infrastructure and tooling projects available at the Nexoral organization.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
-
-<div align="center">
-
-## 🏢 Organization
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=00ADD8&center=true&vCenter=true&width=700&lines=Chaos+Lab+vs+Production+Engineering;Where+'YOLO'+becomes+Proper+CI%2FCD" alt="Organization" />
-
-### All projects are organized under [**Nexoral**](https://github.com/orgs/nexoral)
-
-<a href="https://nexoral.in" target="_blank">
-  <img src="https://img.shields.io/badge/Visit-Nexoral.in-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit Nexoral.in"/>
-</a>
-<a href="https://github.com/orgs/nexoral" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-Nexoral_Org-181717?style=for-the-badge&logo=github&logoColor=white" alt="Nexoral GitHub"/>
-</a>
-
-Personal profile = where experimental features and proof-of-concepts live. **Nexoral** = production-grade projects with proper CI/CD, comprehensive documentation, and structured development workflows.
-
-Two approaches to software development: rapid prototyping for innovation, and disciplined engineering for production systems. 🧪⚙️
-
-**🌐 [nexoral.in](https://nexoral.in)** - Official website and documentation
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
-
-## 📝 Blog & Writing
-
-Writing about what I experience while building stuff:
-
-🔗 **[blog.ankan.in](http://blog.ankan.in)** - Real-world problems and how I solved them
-
-📡 **[RSS Feed](https://blog.ankan.in/rss.xml)** - Subscribe for updates
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
+---
 
 ## 🤝 Connect With Me
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=1DA1F2&center=true&vCenter=true&width=600&lines=Let's+Build+Something+Together;Always+Open+to+Collaborations;DMs+Are+Open!" alt="Connect" />
-</p>
-
-<p align="center">
+<a href="https://resume.ankan.in/Resume_of_Ankan_Saha.pdf" target="_blank"><img src="https://img.shields.io/badge/-Resume-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Resume"/></a>
 <a href="https://linkedin.com/in/theankansaha" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://twitter.com/theankansaha" target="_blank"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
 <a href="https://discord.com/users/theankansaha" target="_blank"><img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
@@ -256,22 +108,9 @@ Writing about what I experience while building stuff:
 <a href="mailto:connect@ankan.in"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%"/>
-
-<div align="center">
-
-### 💼 Open to technical collaborations and interesting projects
-
-```diff
-+ Building production-grade infrastructure, one commit at a time
-+ Open to challenging technical problems and collaborations
-! Always shipping well-tested, production-ready code
-# Design • Build • Deploy • Iterate
-```
+---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Happy%20Coding!&fontSize=40&fontAlignY=70&animation=twinkling&fontColor=fff" width="100%"/>
-
-</div>
 
 ---
 

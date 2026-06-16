@@ -1,10 +1,10 @@
 <div align="center">
 
-# Ankan Saha - Backend Engineer
+# Ankan Saha — Backend Engineer
 
-*Backend-focused engineer specializing in infrastructure tools and distributed systems*
+*Node.js · TypeScript · Distributed Systems · Database Internals · Networking Protocols · Open Source*
 
-**📍 Kolkata, India** | **📧 connect@ankan.in** | **💼 2 Years Experience**
+**📍 Kolkata, India** | **📧 connect@ankan.in** | **💼 6+ Years Coding · 2 Years Production**
 
 ---
 
@@ -25,55 +25,63 @@
 
 ## 🚀 About Me
 
-Backend Engineer building production-ready infrastructure tools and distributed systems. Maintained systems serving **10M+ users** at Hoichoi (OTT platform), built [AxioDB](https://github.com/nexoral/AxioDB) (embedded NoSQL database with **2,000+ NPM downloads**), and currently developing [NexoralDNS](https://github.com/nexoral/NexoralDNS) - a high-performance DNS server achieving **8,050+ QPS** with 0.00% packet loss.
+Node.js and TypeScript Backend Engineer building production-ready infrastructure tools and distributed systems. Maintained systems serving **10M+ users** at Hoichoi (OTT platform), built [AxioDB](https://github.com/nexoral/AxioDB) — an embedded NoSQL database engine with **2,000+ NPM downloads** — and currently developing [NexoralDNS](https://github.com/nexoral/NexoralDNS), a high-performance DNS server achieving **8,050+ QPS** with 0.00% packet loss.
 
-**Focus areas:** Database internals, networking protocols (DNS, TCP/IP), distributed systems, Node.js runtime architecture. I build tools that solve real problems I've encountered - from dependency compilation nightmares to home lab DNS management. All projects organized under [Nexoral](https://github.com/orgs/nexoral) for production-grade development workflows.
+**Focus areas:** Database internals, networking protocols (DNS, TCP/IP), distributed systems, Node.js runtime architecture, RESTful API design, and microservices. I build tools that solve real problems I've encountered — from dependency compilation nightmares to home lab DNS management. All projects organized under [Nexoral](https://github.com/orgs/nexoral) for production-grade development workflows.
 
 ---
 
 ## 🛠️ Technical Skills
 
-**2 years of production experience** with JavaScript, TypeScript, and Node.js ecosystem. Built and maintained systems serving 10M+ users, handling 40+ concurrent video streams, and managing 200+ IoT devices in production.
+**6+ years of coding (2 years in production)** with JavaScript, TypeScript, and Node.js ecosystem. Built and maintained systems serving 10M+ users, handling 40+ concurrent video streams, and managing 200+ IoT devices in production.
 
-**Core Expertise:** Node.js, TypeScript, JavaScript, Express.js, Fastify, NestJS, React.js, Next.js, Golang
-**Databases & Messaging:** MongoDB, Redis, Redis Streams, RabbitMQ, SQL, Database Internals
-**DevOps & Cloud:** Docker, AWS Lambda, Cloudflare Workers, Nginx, Linux, CI/CD, Git
-**Specialized:** Video Streaming (FFmpeg, RTSP), IoT (MQTT, WebSockets), Microservices Architecture, RESTful APIs, GraphQL
-
-**Core Stack (2 years production):** Node.js, TypeScript, JavaScript, Express.js, Fastify, NestJS, React.js, Next.js, Golang
-**Databases & Messaging:** MongoDB, Redis, Redis Streams, RabbitMQ, SQL, Apache Kafka
+**Core Stack (since 2020):** Node.js, TypeScript, JavaScript, Express.js, Fastify, NestJS, React.js, Next.js, Golang
+**Databases & Messaging:** MongoDB, Redis, Redis Streams, RabbitMQ, SQL, Apache Kafka, Database Internals
 **Infrastructure & DevOps:** Docker, AWS Lambda, Cloudflare Workers, Nginx, Linux, Git, GitHub Actions, CircleCI
-**Specialized:** Video Streaming (FFmpeg, RTSP), IoT (MQTT, WebSockets), RESTful APIs, GraphQL
-**Additional:** Firebase, OpenAI API, Gemini API
+**Specialized:** Video Streaming (FFmpeg, RTSP), IoT (MQTT, WebSockets), Microservices Architecture, RESTful APIs, GraphQL
+**AI & LLM Integration:** OpenAI API, Anthropic Claude API, Gemini API, Prompt Engineering, Structured Output (Zod), RAG Pipelines, AI Agents, Tool Use
+**Additional:** Firebase
+
+---
+
+## 🤖 AI Integration
+
+My focus is building **production-grade AI features** inside real backend systems:
+
+- **LLM API Integration:** Shipping services on top of OpenAI, Anthropic Claude, and Gemini APIs with retry logic, rate-limit handling, cost tracking, and latency budgets baked in.
+- **Structured Output & Validation:** Using Zod schemas to parse and validate LLM responses — enforcing type safety at the boundary between language models and application logic.
+- **RAG Pipelines:** Implementing Retrieval-Augmented Generation — embedding pipelines, vector search, and context injection — to give LLMs access to private or real-time data.
+- **AI Agents & Tool Use:** Building agentic workflows where models call APIs, query databases, and compose multi-step actions autonomously.
+- **Prompt Engineering:** Managing prompt versioning, designing system prompts for deterministic outputs, and building eval harnesses to measure output quality.
 
 ---
 
 ## 🎯 Featured Projects
 
 ### [NexoralDNS](https://github.com/nexoral/NexoralDNS)
-High-performance Docker-based DNS server for Local Area Networks achieving **8,050+ QPS** with **0.00% packet loss** under 500 concurrent clients. Built from scratch with custom UDP packet parsing, Redis caching, and Change Streams. Features web-based management interface and Docker deployment. Built with Node.js and TypeScript using dgram for UDP/TCP socket handling, Fastify for the API layer, and Next.js for the management dashboard.
+High-performance Docker-based DNS server for Local Area Networks. Built from scratch with custom UDP packet parsing, Redis caching, and Change Streams. Features web-based management interface and Docker deployment. Built with Node.js and TypeScript using dgram for UDP/TCP socket handling, Fastify for the API layer, and Next.js for the management dashboard.
 
 **Why built:** Ever edited `/etc/hosts` on five different machines just to test one local domain? Ever wanted your own DNS server for your home lab without exposing it to the internet? That's why this exists.
 
-**Problem solved:** Eliminates the hassle of managing `/etc/hosts` files across multiple machines, provides network-wide custom domain resolution with enterprise-grade performance (8,050+ QPS, 9-worker cluster), and adds security filtering for home/office networks.
+**Problem solved:** Eliminates the hassle of managing `/etc/hosts` files across multiple machines, provides network-wide custom domain resolution, and adds security filtering for home/office networks.
 
-**Performance:** 8,050+ QPS throughput, 0.00% packet loss, handles 500 concurrent clients, Redis-backed caching layer
+**Performance:** 8,050+ QPS throughput, 0.00% packet loss, 500 concurrent clients, Redis-backed caching, 9-worker cluster
 
 **Tech Stack:** Node.js, TypeScript, Docker, dgram, Redis, MongoDB, Fastify, Next.js
 
 ### [AxioDB](https://github.com/nexoral/AxioDB) ![NPM Downloads](https://img.shields.io/badge/npm-2000%2B%20downloads-brightgreen)
-Lightweight embedded NoSQL database for Node.js applications. Pure JavaScript alternative to SQLite with MongoDB-style queries, zero native dependencies, and built-in web GUI at `localhost:27018`. Uses tree-like file structure for fast retrieval and worker threads for parallel processing. Optimized for 10K-500K documents.
+Lightweight embedded NoSQL database engine for Node.js applications. Pure JavaScript alternative to SQLite with MongoDB-style queries, zero native dependencies, and built-in web GUI at `localhost:27018`. Uses tree-like file structure for fast retrieval and worker threads for parallel processing. Optimized for 10K–500K documents.
 
-**Why built:** Started building an Electron app and needed local storage. Tried JSON files first—worked fine with 50 records, got painfully slow at 1K+. Switched to SQLite, spent 6 hours fighting `node-gyp` rebuild errors across Windows and Mac. Deployed to production, got native binding errors. That weekend, I built AxioDB—pure JavaScript, no native dependencies, works everywhere Node.js runs. **2000+ downloads on NPM** later, turns out I wasn't the only one tired of this struggle.
+**Why built:** Started building an Electron app and needed local storage. Tried JSON files first — worked fine with 50 records, got painfully slow at 1K+. Switched to SQLite, spent 6 hours fighting `node-gyp` rebuild errors across Windows and Mac. Deployed to production, got native binding errors. That weekend, I built AxioDB — pure JavaScript, no native dependencies, works everywhere Node.js runs. **2,000+ downloads on NPM** later, turns out I wasn't the only one tired of this struggle.
 
-**Problem solved:** AxioDB gives you MongoDB-like queries (`find`, `insert`, `update`, `delete`, `aggregate`) without the hassle. Just `npm install axiodb` and you have a database—no `mongod` process, no native bindings, no cross-platform compilation nightmares. Perfect for Electron apps, CLI tools, small websites, and anywhere you need a lightweight database that just works.
+**Problem solved:** AxioDB gives you MongoDB-like queries (`find`, `insert`, `update`, `delete`, `aggregate`) without the hassle. Just `npm install axiodb` and you have a database — no `mongod` process, no native bindings, no cross-platform compilation nightmares. Perfect for Electron apps, CLI tools, small websites, and anywhere you need a lightweight database that just works.
 
 **Tech Stack:** Node.js, TypeScript, Worker Threads, Filesystem APIs
 
 ### [xpack](https://github.com/nexoral/xpack)
 Universal Linux package builder that converts standalone binaries into native package formats (.deb, .rpm, tar.gz). Automates the creation of reproducible packages with configurable metadata, installation scripts, and service files. Designed for CI pipelines and Linux software maintainers.
 
-**Why built:** I know many friends who code in C, Golang, Rust—they build, run `./bin`, and it works. But ever thought about how to ship your binary to real users who install packages with `sudo dpkg -i`? That gap between "it works on my machine" and actual distribution is why this exists.
+**Why built:** I know many friends who code in C, Golang, Rust — they build, run `./bin`, and it works. But ever thought about how to ship your binary to real users who install packages with `sudo dpkg -i`? That gap between "it works on my machine" and actual distribution is why this exists.
 
 **Problem solved:** Streamlines the packaging process for Linux software distribution, automating repetitive tasks like metadata generation and file layout management. Makes CI/CD packaging simple with one command.
 
@@ -95,10 +103,27 @@ Additional infrastructure and tooling projects available at the Nexoral organiza
 
 ---
 
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AnkanSaha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="Ankan Saha GitHub Stats — Backend Engineer, Node.js, TypeScript"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnkanSaha&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Ankan Saha Most Used Languages"/>
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=AnkanSaha&theme=tokyonight&hide_border=true" alt="Ankan Saha GitHub Contribution Streak"/>
+</div>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,go,nodejs,express,nestjs,react,nextjs,mongodb,redis,mysql,postgres,kafka,rabbitmq,docker,aws,workers,nginx,linux,git,github,githubactions,graphql,firebase,npm,bash,ubuntu,postman,vercel&theme=dark&perline=10" alt="Ankan Saha Tech Stack — Node.js TypeScript Go Docker Redis MongoDB Kafka AWS"/>
+</div>
+
+---
+
 ## 🤝 Connect With Me
 
 <p align="center">
-<a href="https://resume.ankan.in/Resume_of_Ankan_Saha.pdf" target="_blank"><img src="https://img.shields.io/badge/-Resume-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Resume"/></a>
+<a href="https://resume.ankan.in/Resume_of_Ankan_Saha.pdf" target="_blank"><img src="https://img.shields.io/badge/-Resume-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ankan Saha Resume"/></a>
 <a href="https://linkedin.com/in/theankansaha" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://twitter.com/theankansaha" target="_blank"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
 <a href="https://discord.com/users/theankansaha" target="_blank"><img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
@@ -110,12 +135,9 @@ Additional infrastructure and tooling projects available at the Nexoral organiza
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Happy%20Coding!&fontSize=40&fontAlignY=70&animation=twinkling&fontColor=fff" width="100%"/>
-
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer" width="100%"/>
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=AnkanSaha&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views"/>
 
 **⭐️ From [AnkanSaha](https://github.com/AnkanSaha) | Last Updated: 2026**
 

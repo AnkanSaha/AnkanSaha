@@ -1,6 +1,6 @@
 <div align="center">
 
-# Ankan Saha | Backend Engineer
+# Ankan Saha | Software Engineer
 
 *Node.js · TypeScript · Distributed Systems · Database Internals · Networking Protocols · Model Context Protocol (MCP) · Open Source*
 
@@ -8,7 +8,7 @@
 
 ---
 
-**🎯 Actively seeking Backend Engineer roles** | Immediate availability (Remote or Kolkata-based)
+**🎯 Actively seeking Software Engineer roles** | Immediate availability (Remote or Kolkata-based)
 **📄 Resume:** [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.pdf)
 
 ---
@@ -25,7 +25,7 @@
 
 ## 🚀 About Me
 
-Node.js and TypeScript Backend Engineer building production-ready infrastructure tools and distributed systems. Maintained systems serving **10M+ users** at Hoichoi (OTT platform), built [AxioDB](https://github.com/nexoral/AxioDB), an embedded NoSQL database engine with **15K+ NPM downloads/year**, and currently developing [NexoralDNS](https://github.com/nexoral/NexoralDNS), a high-performance DNS server achieving **8,050+ QPS** with 0.00% packet loss, exposed as a **Model Context Protocol (MCP) server** so AI agents can manage DNS records, blocking rules, and cache through natural-language tool calls.
+Node.js and TypeScript Software Engineer building production-ready infrastructure tools and distributed systems. Maintained systems serving **10M+ users** at Hoichoi (OTT platform), built [AxioDB](https://github.com/nexoral/AxioDB), an embedded NoSQL database engine with **15K+ NPM downloads/year**, and currently developing [NexoralDNS](https://github.com/nexoral/NexoralDNS), a high-performance DNS server achieving **8,050+ QPS** with 0.00% packet loss, exposed as a **Model Context Protocol (MCP) server** so AI agents can manage DNS records, blocking rules, and cache through natural-language tool calls.
 
 **Focus areas:** Database internals, networking protocols (DNS, TCP/IP), distributed systems, Node.js runtime architecture, RESTful API design, and microservices. I build tools that solve real problems I've encountered, from dependency compilation nightmares to home lab DNS management. Most of my production-grade projects are organized under the [Nexoral](https://github.com/orgs/nexoral) organization.
 
@@ -108,7 +108,7 @@ Additional infrastructure and tooling projects available at the Nexoral organiza
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=AnkanSaha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="Ankan Saha GitHub Stats - Backend Engineer, Node.js, TypeScript"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=AnkanSaha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="Ankan Saha GitHub Stats - Software Engineer, Node.js, TypeScript"/>
   <img src="https://github-stats-extended.vercel.app/api/top-langs?username=AnkanSaha&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Ankan Saha Most Used Languages"/>
 </div>
 

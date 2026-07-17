@@ -25,9 +25,27 @@
 
 ## 🚀 About Me
 
-Node.js and TypeScript Software Engineer building production-ready infrastructure tools and distributed systems. Maintained systems serving **10M+ users** at Hoichoi (OTT platform), built [AxioDB](https://github.com/nexoral/AxioDB), an embedded NoSQL database engine with **15K+ NPM downloads/year**, and currently developing [NexoralDNS](https://github.com/nexoral/NexoralDNS), a high-performance DNS server achieving **8,050+ QPS** with 0.00% packet loss, exposed as a **Model Context Protocol (MCP) server** so AI agents can manage DNS records, blocking rules, and cache through natural-language tool calls.
+Node.js and TypeScript Software Engineer building production-ready infrastructure tools and distributed systems. Shipped features for a **10M+ user** OTT platform at Hoichoi, including a Cloudflare Workers migration that cut infrastructure costs by **~$36K/year**. Built [AxioDB](https://github.com/nexoral/AxioDB), an embedded NoSQL database engine with **17K+ NPM downloads/year**, and [NexoralDNS](https://github.com/nexoral/NexoralDNS), a self-hosted DNS server achieving **8,050+ QPS** at 0.97% packet loss under 500 concurrent clients, exposed as a **Model Context Protocol (MCP) server** so AI agents can manage DNS records, blocking rules, and cache through natural-language tool calls.
 
 **Focus areas:** Database internals, networking protocols (DNS, TCP/IP), distributed systems, Node.js runtime architecture, RESTful API design, and microservices. I build tools that solve real problems I've encountered, from dependency compilation nightmares to home lab DNS management. Most of my production-grade projects are organized under the [Nexoral](https://github.com/orgs/nexoral) organization.
+
+---
+
+## 💼 Experience
+
+**Full Stack Developer** — Hoichoi Technologies Pvt. Ltd. · Kolkata, India
+*July 2025 – March 2026*
+- Built a Churnkey integration into the Go-based subscription service backing a 10M+ user OTT platform, and debugged production issues across the service.
+- Migrated the Next.js frontend from Vercel to Cloudflare Workers using OpenNext, cutting monthly egress and compute costs by ~$3,000 (~$36K/year).
+
+**Software Engineer** — Openweb Solutions · Kolkata, India
+*September 2024 – July 2025*
+- Built the Node.js backend and React dashboard for an AI-powered CCTV SaaS: ingested user-configured RTSP camera streams, extracted frames for external AI inference (threat detection), and rendered live feeds with real-time detection alerts.
+
+**Junior Software Developer** — Excellis IT Pvt. Ltd. · Kolkata, India
+*April 2024 – September 2024*
+- Built the Node.js + MQTT backend for a Smart Lock IoT system supporting 200+ live devices; improved connection stability by rewriting WebSocket handling with an exponential backoff reconnection strategy.
+- Implemented a GitHub Actions pipeline with path-based change detection, running tests and deploying only modified services.
 
 ---
 
@@ -37,8 +55,8 @@ Node.js and TypeScript Software Engineer building production-ready infrastructur
 
 **Core Stack (since 2020):** Node.js, TypeScript, JavaScript, Express.js, Fastify, NestJS, React.js, Next.js, Golang
 **Databases & Messaging:** MongoDB, Redis, Redis Streams, RabbitMQ, SQL, Database Internals
-**Infrastructure & DevOps:** Docker, AWS Lambda, Cloudflare Workers, Nginx, Linux, Git, GitHub Actions, CircleCI
-**Specialized:** Video Streaming (FFmpeg, RTSP), IoT (MQTT, WebSockets), Microservices Architecture, RESTful APIs, GraphQL
+**Infrastructure & DevOps:** Docker, Kubernetes, K3s, AWS Lambda, Cloudflare Workers, Nginx, Linux, Git, GitHub Actions, CircleCI
+**Specialized:** Video Streaming (FFmpeg, RTSP), IoT (MQTT, WebSockets), Microservices, Event-driven Architecture, RESTful APIs, GraphQL, JWT, OAuth 2.0
 **AI & LLM Integration:** OpenAI API, Gemini API, Prompt Engineering, Structured Output (Zod)
 **Additional:** Firebase
 
@@ -72,9 +90,9 @@ A SaaS control plane that generates and deploys Cloudflare Worker based load bal
 ### [AxioDB](https://github.com/nexoral/AxioDB) ![NPM Downloads](https://img.shields.io/npm/dy/axiodb?label=npm%20downloads%2Fyear&color=brightgreen)
 Lightweight embedded NoSQL database engine for Node.js applications. Pure JavaScript alternative to SQLite with MongoDB-style queries, zero native dependencies, and built-in web GUI at `localhost:27018`. Uses tree-like file structure for fast retrieval and worker threads for parallel processing. Optimized for 10K-500K documents.
 
-**Why built:** Started building an Electron app and needed local storage. Tried JSON files first, worked fine with 50 records, got painfully slow at 1K+. Switched to SQLite, spent 6 hours fighting `node-gyp` rebuild errors across Windows and Mac. Deployed to production, got native binding errors. That weekend, I built AxioDB: pure JavaScript, no native dependencies, works everywhere Node.js runs. **15K+ downloads/year on NPM** later, turns out I wasn't the only one tired of this struggle.
+**Why built:** Started building an Electron app and needed local storage. Tried JSON files first, worked fine with 50 records, got painfully slow at 1K+. Switched to SQLite, spent 6 hours fighting `node-gyp` rebuild errors across Windows and Mac. Deployed to production, got native binding errors. That weekend, I built AxioDB: pure JavaScript, no native dependencies, works everywhere Node.js runs. **17K+ downloads/year on NPM** later, turns out I wasn't the only one tired of this struggle.
 
-**Problem solved:** AxioDB gives you MongoDB-like queries (`find`, `insert`, `update`, `delete`, `aggregate`) without the hassle. Just `npm install axiodb` and you have a database: no `mongod` process, no native bindings, no cross-platform compilation nightmares. Perfect for Electron apps, CLI tools, small websites, and anywhere you need a lightweight database that just works.
+**Problem solved:** AxioDB gives you MongoDB-like queries (`find`, `insert`, `update`, `delete`, `aggregate`) with ACID transactions and hash indexing, without the hassle. Just `npm install axiodb` and you have a database: no `mongod` process, no native bindings, no cross-platform compilation nightmares. Perfect for Electron apps, CLI tools, small websites, and anywhere you need a lightweight database that just works.
 
 **Tech Stack:** Node.js, TypeScript, Worker Threads, Filesystem APIs
 
@@ -85,11 +103,11 @@ High-performance Docker-based DNS server for Local Area Networks. Built from scr
 
 **Problem solved:** Eliminates the hassle of managing `/etc/hosts` files across multiple machines, provides network-wide custom domain resolution, and adds security filtering for home/office networks.
 
-**Performance:** 8,050+ QPS throughput, 0.00% packet loss, 500 concurrent clients, Redis-backed caching, 9-worker cluster
+**Performance:** 8,050+ QPS throughput, 0.97% packet loss at 500 concurrent clients, Redis-backed caching, 9-node worker cluster
 
 **AI Agent Ready:** Exposed as a Model Context Protocol (MCP) server, letting AI agents manage DNS records, blocking rules, and cache through natural-language tool calls.
 
-**Tech Stack:** Node.js, TypeScript, Docker, dgram, Redis, MongoDB, Fastify, Next.js, MCP
+**Tech Stack:** Node.js, TypeScript, Docker, dgram, Redis, MongoDB, RabbitMQ, Fastify, Next.js, MCP
 
 ### [ContainDB](https://github.com/nexoral/ContainDB)
 CLI tool for automating containerized database management. Provides instant setup of MongoDB, Redis, MySQL, PostgreSQL, and MariaDB with one-click installation of management tools (phpMyAdmin, pgAdmin, RedisInsight). Features Docker network integration, data persistence, and Docker Compose export/import capabilities.
@@ -119,6 +137,14 @@ Additional infrastructure and tooling projects available at the Nexoral organiza
 <div align="center">
   <img src="https://skillicons.dev/icons?i=js,ts,go,nodejs,express,nestjs,react,nextjs,mongodb,redis,mysql,postgres,rabbitmq,docker,kubernetes,aws,workers,nginx,linux,git,github,githubactions,graphql,firebase,npm,bash,ubuntu,postman,vercel&theme=dark&perline=10" alt="Ankan Saha Tech Stack - Node.js TypeScript Go Kubernetes Docker Redis MongoDB RabbitMQ GraphQL AWS"/>
 </div>
+
+---
+
+## 📜 Certifications
+
+- **Software Engineer: Problem Solving, REST API** — HackerRank (February 2026)
+- **Database Structures and Management with MySQL** — Coursera (February 2026)
+- **Linux for Developers: Linux, Shell Script** — Coursera (July 2023)
 
 ---
 

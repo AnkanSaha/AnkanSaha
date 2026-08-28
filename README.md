@@ -52,7 +52,7 @@ Full details → [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.
 
 ## Featured Projects
 
-### [AxioDB](https://github.com/nexoral/AxioDB) ![NPM Downloads](https://img.shields.io/npm/dy/axiodb?label=npm%20downloads%2Fyear&color=brightgreen) ![Stars](https://img.shields.io/github/stars/nexoral/AxioDB?style=social)
+### [AxioDB](https://github.com/nexoral/AxioDB) ![NPM Downloads](https://img.shields.io/npm/dy/axiodb?label=npm%20downloads%2Fyear&color=brightgreen) ![Stars](https://img.shields.io/github/stars/nexoral/AxioDB?style=social) ![CI](https://img.shields.io/github/actions/workflow/status/nexoral/AxioDB/Push.yml?branch=main&label=tests&logo=githubactions&logoColor=white)
 
 **The problem:** SQLite needs native C bindings — breaks Electron builds, requires `node-gyp`, platform-specific binaries. JSON files have no queries, no indexing, no crash safety. MongoDB needs a separate server process. There was no good middle ground for embedded Node.js apps.
 
@@ -71,7 +71,7 @@ Full details → [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.
 
 ---
 
-### [NexoralDNS](https://github.com/nexoral/NexoralDNS) ![Stars](https://img.shields.io/github/stars/nexoral/NexoralDNS?style=social)
+### [NexoralDNS](https://github.com/nexoral/NexoralDNS) ![Stars](https://img.shields.io/github/stars/nexoral/NexoralDNS?style=social) ![CI](https://img.shields.io/github/actions/workflow/status/nexoral/NexoralDNS/push_to_github_registry.yml?branch=main&label=tests&logo=githubactions&logoColor=white)
 
 **The problem:** Managing DNS across devices on a home network means editing `/etc/hosts` on every machine, no ad blocking at the network level, and no visibility into what your devices are querying. Public DNS services see everything you do.
 
@@ -89,7 +89,7 @@ I initially wrote the core DNS query engine in TypeScript — it was my stronges
 
 ---
 
-### [EdgeBalancer](https://github.com/nexoral/EdgeBalancer) ![Stars](https://img.shields.io/github/stars/nexoral/EdgeBalancer?style=social)
+### [EdgeBalancer](https://github.com/nexoral/EdgeBalancer) ![Stars](https://img.shields.io/github/stars/nexoral/EdgeBalancer?style=social) ![CI](https://img.shields.io/github/actions/workflow/status/nexoral/EdgeBalancer/deploy.yml?branch=main&label=tests&logo=githubactions&logoColor=white)
 
 **The problem:** I had two free Oracle cloud servers but no load balancer. AWS ALB costs $22/mo even idle. Cloudflare's own LB costs $5/mo plus per-request fees. Nginx needs a server and config management. For a side project with barely any traffic, none of these made sense.
 

@@ -2,13 +2,13 @@
 
 # Ankan Saha | Software Engineer
 
-*Node.js · TypeScript · Distributed Systems · Model Context Protocol (MCP) · Open Source*
+*Node.js · TypeScript · Go · Distributed Systems · MCP · Open Source*
 
 **📍 Kolkata, India** | **📧 connect@ankan.in**
 
 ---
 
-**🎯 Actively seeking Software Engineer roles** | Immediate availability (Remote or Kolkata-based)
+**🎯 Actively seeking Software Engineer roles** | Open to Bangalore / Hyderabad / Delhi NCR / Remote
 **📄 Resume:** [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.pdf)
 
 ---
@@ -20,62 +20,94 @@
 
 </div>
 
-## 🚀 About Me
+## About Me
 
-Software Engineer building production-ready infrastructure tools and distributed systems. Shipped features for a **10M+ user** OTT platform at Hoichoi. Built [AxioDB](https://github.com/nexoral/AxioDB), an embedded NoSQL database engine with **17K+ NPM downloads/year**, and [NexoralDNS](https://github.com/nexoral/NexoralDNS), a self-hosted DNS server achieving **8,050+ QPS** at 0.97% packet loss under 500 concurrent clients, exposed as a **Model Context Protocol (MCP) server** so AI agents can manage DNS records, blocking rules, and cache through natural-language tool calls.
+I build infrastructure tools and distributed systems. My last role was Full Stack Developer at [Hoichoi](https://hoichoi.tv), Bengali's biggest OTT platform with 10M+ users. On my own time, I maintain three open-source projects under [Nexoral](https://github.com/orgs/nexoral): an embedded database, a DNS server, and an edge infrastructure SaaS.
 
-**Focus areas:** Distributed systems, how Node.js works under the hood, REST API design, and microservices. I build tools that fix real problems I run into, like painful software installs or managing DNS at home. Most of my serious projects live under the [Nexoral](https://github.com/orgs/nexoral) organization.
-
-I ship in small PRs, write tests around shared logic, and document trade-offs when the call isn't obvious.
+Most of my work starts with a problem I personally run into — then I build a proper solution and open-source it. I care about how Node.js works under the hood, DNS and networking, database internals, and building things that actually work in production.
 
 ---
 
-## 💼 Experience
+## Experience
 
-Most recently **Full Stack Developer** at [Hoichoi](https://hoichoi.tv).
+- **Full Stack Developer** · [Hoichoi](https://hoichoi.tv) · Jul 2025 – Mar 2026
+- **Software Engineer** · [Openweb Solutions (Pitangent Group)](https://pitangent.com) · Sep 2024 – Jul 2025
+- **Junior Software Developer** · [Excellis IT](https://excellisit.com) · Apr 2024 – Aug 2024
+
+Full details → [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.pdf)
 
 ---
 
-## 🛠️ Technical Skills
+## Technical Skills
 
-- **Languages:** TypeScript, JavaScript, Golang
+- **Languages:** TypeScript, JavaScript, Go (working knowledge)
 - **Runtime & Frameworks:** Node.js, Express.js, Fastify, NestJS, React.js, Next.js
-- **Databases & Messaging:** MongoDB, PostgreSQL, MySQL, Redis, Redis Streams, RabbitMQ
-- **Infrastructure & DevOps:** Docker, Kubernetes, K3s, AWS Lambda, Cloudflare Workers, Nginx, Linux, Git, GitHub Actions, CircleCI
-- **Architecture & APIs:** Microservices, Event-driven Architecture, Modular Monolith, RESTful APIs, GraphQL
-- **Security:** JWT, OAuth 2.0
-- **Testing & Observability:** Jest, Vitest, Sentry, Middleware.io
-- **Additional:** Firebase
+- **Databases & Messaging:** MongoDB, PostgreSQL, Redis, RabbitMQ
+- **Infrastructure:** Docker, K3s, AWS (ECS, Fargate, ECR, S3, SQS), Cloudflare Workers, Nginx, Linux, GitHub Actions
+- **Architecture:** Microservices, Modular Monolith, Event-driven, REST APIs, GraphQL, WebSockets, SSE
+- **AI & Agents:** LangChain.js, Model Context Protocol (MCP), Agentic Workflows
+- **Testing:** Jest, Vitest, Sentry
 
 ---
 
-## 🎯 Featured Projects
+## Featured Projects
+
+### [AxioDB](https://github.com/nexoral/AxioDB) ![NPM Downloads](https://img.shields.io/npm/dy/axiodb?label=npm%20downloads%2Fyear&color=brightgreen) ![Stars](https://img.shields.io/github/stars/nexoral/AxioDB?style=social)
+
+**The problem:** SQLite needs native C bindings — breaks Electron builds, requires `node-gyp`, platform-specific binaries. JSON files have no queries, no indexing, no crash safety. MongoDB needs a separate server process. There was no good middle ground for embedded Node.js apps.
+
+**What it does:** An embedded NoSQL database you install with `npm install axiodb` and start using. MongoDB-style queries, ACID transactions with crash recovery, built-in caching, and multi-core parallel processing.
+
+- **NPM package** — core database + built-in web GUI + AxioDBCloud TCP client to connect to a Docker-based database remotely, `npm install axiodb` and go
+- **Docker image** — containerized deployment so multiple services can share one database over the network
+- **MCP server** (Docker only) — 32 tools so AI agents can query and manage the database directly
+- **Go CLI** — terminal tool with interactive REPL, tab completion, export/import
+
+**Impact:** 20K+ NPM downloads/year. Used in Electron apps, CLI tools, and local-first applications where a full database server is overkill.
+
+**Tech:** TypeScript, Node.js, Fastify, Docker, Go
+
+---
+
+### [NexoralDNS](https://github.com/nexoral/NexoralDNS) ![Stars](https://img.shields.io/github/stars/nexoral/NexoralDNS?style=social)
+
+**The problem:** Managing DNS across devices on a home network means editing `/etc/hosts` on every machine, no ad blocking at the network level, and no visibility into what your devices are querying. Public DNS services see everything you do.
+
+**What it does:** A self-hosted DNS server for your LAN. Block ads, adult content, or AI tools network-wide with one click. Create custom domains for your homelab services. Ships with an MCP server so you can manage everything through natural language.
+
+I initially wrote the core DNS query engine in TypeScript — it was my strongest language and I wanted to get the behaviour right first. On this same machine (AMD Ryzen 5 5500U, 6 cores / 12 threads, 7.1 GiB RAM), using 75% — 9 threads for the query logic, the TypeScript version hit **8,050 QPS** under 500 concurrent clients with 0.97% packet loss. Once the logic settled, I rewrote the core engine in Go. The Go version runs on the same hardware, same 9-thread allocation, and now does **12,746 QPS** at 3.8ms average latency with zero dropped queries. The architecture is modular monolith — all services run in one process, which made sense given the single-server deployment. When I eventually need to scale, each module is designed to be pulled out into its own service.
+
+**Impact:** Redis caches 98% of lookups. Logging happens after the reply, so it never slows down your DNS. The whole thing runs on Docker on a mid-range laptop.
+
+**Tech:** Go, TypeScript, Fastify, Next.js, Docker, Redis, RabbitMQ, MongoDB
+
+---
 
 ### [EdgeBalancer](https://github.com/nexoral/EdgeBalancer)
-SaaS control plane that generates and deploys Cloudflare Worker load balancers from a dashboard — pick a routing strategy, it provisions and manages the Worker for you, no hand-written scripts or edge infra to babysit.
 
-**Tech Stack:** TypeScript, Fastify, Next.js, Cloudflare Workers, Redis, K3s
+**The problem:** I had two free Oracle cloud servers but no load balancer. AWS ALB costs $22/mo even idle. Cloudflare's own LB costs $5/mo plus per-request fees. Nginx needs a server and config management. For a side project with barely any traffic, none of these made sense.
 
-### [AxioDB](https://github.com/nexoral/AxioDB) ![NPM Downloads](https://img.shields.io/npm/dy/axiodb?label=npm%20downloads%2Fyear&color=brightgreen)
-Embedded NoSQL database engine for Node.js — MongoDB-style queries, zero native dependencies, ACID transactions, `npm install` and go. Exposed as an MCP server so AI agents can query and manage it directly.
+**What it does:** A SaaS that deploys load balancers and API gateways as Cloudflare Workers — runs at 330+ edge locations inside your own Cloudflare account. For load balancing: 7 routing strategies with health checks and auto-failover. For API gateways: path-based routing, JWT auth, caching, canary deploys, rate limiting. An AI assistant builds either from a plain English description. Ships with an MCP server, OAuth, 2FA, and a billing system.
 
-**Tech Stack:** Node.js, TypeScript, Worker Threads
+I built it because I needed it. Before this, I deployed it on those two Oracle machines and used EdgeBalancer itself to load balance between them. Now it runs on AWS Fargate. The whole thing is a modular monolith — all services (auth, billing, worker deployment, AI) run in one Fastify process on Fargate. I chose this over microservices because with a free-tier AWS account, I only have so much to work with. When I outgrow it, each module is already cleanly separated so I can split them into independent services without rewriting.
 
-### [NexoralDNS](https://github.com/nexoral/NexoralDNS)
-Self-hosted DNS server for LANs — custom UDP packet parsing and Redis caching, killing the need to hand-edit `/etc/hosts` across machines. Hits 8,050+ QPS at 0.97% packet loss under 500 concurrent clients, exposed as an MCP server for AI-driven DNS management.
+**Production stats** ([live](https://edge.nexoral.in/stats)): 60 users, 10 load balancers, 14 API gateways, 20 origins/upstreams, 295 AI agent runs, 60 Worker scripts deployed.
 
-**Tech Stack:** Node.js, TypeScript, Docker, Redis, Fastify, MCP
+**Impact:** Under 100K requests/day costs ₹0 (Cloudflare free tier). Saves 90-100% vs AWS ALB at low traffic.
 
-Also: [ContainDB](https://github.com/nexoral/ContainDB) — containerized DB CLI · [ReviewBuddy](https://github.com/nexoral/ReviewBuddy) — AI PR reviewer action. More at the [Nexoral org](https://github.com/orgs/nexoral).
+**Tech:** TypeScript, Fastify, Next.js, Cloudflare Workers, Redis, LangChain.js, AWS Fargate, MongoDB
 
 ---
 
-## 🤝 Connect With Me
+Also: [ContainDB](https://github.com/nexoral/ContainDB) — containerized DB CLI · [ReviewBuddy](https://github.com/nexoral/ReviewBuddy) — AI PR reviewer. More at [nexoral](https://github.com/orgs/nexoral).
+
+---
+
+## Connect With Me
 
 <p align="center">
 <a href="https://linkedin.com/in/theankansaha" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://x.com/theankansaha" target="_blank"><img src="https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
-<a href="https://hashnode.com/@theankansaha" target="_blank"><img src="https://img.shields.io/badge/-Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" alt="Hashnode"/></a>
 <a href="mailto:connect@ankan.in"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 

@@ -8,7 +8,7 @@
 
 ---
 
-**🎯 Actively seeking Software Engineer roles** | Open to Bangalore / Hyderabad / Delhi NCR / Remote
+**🎯 Actively seeking Backend / SDE roles** | Open to Bangalore / Hyderabad / Delhi NCR / Remote
 **📄 Resume:** [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.pdf)
 
 ---
@@ -56,6 +56,8 @@ Full details → [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.
 
 **The problem:** SQLite needs native C bindings — breaks Electron builds, requires `node-gyp`, platform-specific binaries. JSON files have no queries, no indexing, no crash safety. MongoDB needs a separate server process. There was no good middle ground for embedded Node.js apps.
 
+**Why I built it:** I kept running into this exact problem — needed a database in an Electron app and every option was either too heavy or too bare. So I built the thing I actually wanted to use.
+
 **What it does:** An embedded NoSQL database you install with `npm install axiodb` and start using. MongoDB-style queries, ACID transactions with crash recovery, built-in caching, and multi-core parallel processing.
 
 - **NPM package** — core database + built-in web GUI + AxioDBCloud TCP client to connect to a Docker-based database remotely, `npm install axiodb` and go
@@ -63,7 +65,7 @@ Full details → [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.
 - **MCP server** (Docker only) — 32 tools so AI agents can query and manage the database directly
 - **Go CLI** — terminal tool with interactive REPL, tab completion, export/import
 
-**Impact:** 20K+ NPM downloads/year. Used in Electron apps, CLI tools, and local-first applications where a full database server is overkill.
+**Impact:** 20K+ NPM downloads/year. Used in Electron apps, CLI tools, and local-first applications where a full database server is overkill. 10 test suites covering CRUD, transactions, aggregation, auth (GUI + TCP), TLS, crash recovery (real SIGKILL), and MCP tool confirmation.
 
 **Tech:** TypeScript, Node.js, Fastify, Docker, Go
 
@@ -73,17 +75,21 @@ Full details → [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.
 
 **The problem:** Managing DNS across devices on a home network means editing `/etc/hosts` on every machine, no ad blocking at the network level, and no visibility into what your devices are querying. Public DNS services see everything you do.
 
-**What it does:** A self-hosted DNS server for your LAN. Block ads, adult content, or AI tools network-wide with one click. Create custom domains for your homelab services. Ships with an MCP server so you can manage everything through natural language.
+**What it does:** A self-hosted DNS server for your LAN ([live site](https://dns.nexoral.in)). Block ads, adult content, or AI tools network-wide with one click. Create custom domains for your homelab services. Ships with an MCP server so you can manage everything through natural language.
 
-I initially wrote the core DNS query engine in TypeScript — it was my strongest language and I wanted to get the behaviour right first. On this same machine (AMD Ryzen 5 5500U, 6 cores / 12 threads, 7.1 GiB RAM), using 75% — 9 threads for the query logic, the TypeScript version hit **8,050 QPS** under 500 concurrent clients with 0.97% packet loss. Once the logic settled, I rewrote the core engine in Go. The Go version runs on the same hardware, same 9-thread allocation, and now does **12,746 QPS** at 3.8ms average latency with zero dropped queries. The architecture is modular monolith — all services run in one process, which made sense given the single-server deployment. When I eventually need to scale, each module is designed to be pulled out into its own service.
+I initially wrote the core DNS query engine in TypeScript — it was my strongest language and I wanted to get the behaviour right first. Then I rewrote it in Go for performance.
 
-**Impact:** Redis caches 98% of lookups. Logging happens after the reply, so it never slows down your DNS. The whole thing runs on Docker on a mid-range laptop.
+- **TypeScript version** — on this machine (Ryzen 5 5500U, 12 threads, 7.1 GiB RAM), using 9 threads for query logic, hit **8,050 QPS** under 500 concurrent clients with 0.97% packet loss
+- **Go rewrite** — same machine, same 9-thread allocation, now does **12,746 QPS** at 3.8ms latency with zero dropped queries
+- **Architecture** — modular monolith, all services in one process. Made sense for single-server deployment. Each module is designed to be pulled out into its own service when I need to scale
+
+**Impact:** Redis caches 98% of lookups. Logging happens after the reply, so it never slows down your DNS. The whole thing runs on Docker on a mid-range laptop. 307 test files covering the API layer, MCP tools, Redis, RabbitMQ, auth, and access control.
 
 **Tech:** Go, TypeScript, Fastify, Next.js, Docker, Redis, RabbitMQ, MongoDB
 
 ---
 
-### [EdgeBalancer](https://github.com/nexoral/EdgeBalancer)
+### [EdgeBalancer](https://github.com/nexoral/EdgeBalancer) ![Stars](https://img.shields.io/github/stars/nexoral/EdgeBalancer?style=social)
 
 **The problem:** I had two free Oracle cloud servers but no load balancer. AWS ALB costs $22/mo even idle. Cloudflare's own LB costs $5/mo plus per-request fees. Nginx needs a server and config management. For a side project with barely any traffic, none of these made sense.
 
@@ -93,7 +99,7 @@ I built it because I needed it. Before this, I deployed it on those two Oracle m
 
 **Production stats** ([live](https://edge.nexoral.in/stats)): 60 users, 10 load balancers, 14 API gateways, 20 origins/upstreams, 295 AI agent runs, 60 Worker scripts deployed.
 
-**Impact:** Under 100K requests/day costs ₹0 (Cloudflare free tier). Saves 90-100% vs AWS ALB at low traffic.
+**Impact:** Under 100K requests/day costs ₹0 (Cloudflare free tier). Saves 90-100% vs AWS ALB at low traffic. 30 test files covering unit tests (AI agent, encryption, JWT, worker generation, rate limiting) and integration tests (auth, sessions, load balancer deployment, Cloudflare API, passkeys, TOTP).
 
 **Tech:** TypeScript, Fastify, Next.js, Cloudflare Workers, Redis, LangChain.js, AWS Fargate, MongoDB
 

@@ -2,11 +2,11 @@
 
 # Ankan Saha
 
-**Backend & Distributed Systems Engineer**  
-*Node.js · TypeScript · Go · Cloudflare Workers · AWS · Network Internals*
+**Backend Engineer**  
+*TypeScript · Node.js · Fastify · Go (Working Knowledge) · Cloudflare Workers*
 
 📍 Kolkata, India | 📧 [connect@ankan.in](mailto:connect@ankan.in) | 📄 [Resume (PDF)](https://resume.ankan.in/Resume_of_Ankan_Saha.pdf)  
-**Actively seeking Backend / Distributed Systems / SDE II roles** (Open to Bangalore, Hyderabad, Delhi NCR, Remote)
+**Open to Backend / SDE roles** (Bangalore · Hyderabad · Delhi NCR · Remote)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ankan.in-00ADD8?style=flat-square&logo=google-chrome&logoColor=white)](https://ankan.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-theankansaha-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/theankansaha)
@@ -19,29 +19,35 @@
 
 ## About Me
 
-I build high-throughput backend services, developer infrastructure, and network tools. Most recently, I was a Full Stack Developer at [Hoichoi](https://hoichoi.tv), Eastern India's largest OTT streaming platform (10M+ users), where I migrated core web workloads to Cloudflare Workers to eliminate compute overhead and scale edge delivery.
+I am a backend engineer with 2 years of professional experience building web APIs, data pipelines, and developer tooling. Most recently at [Hoichoi](https://hoichoi.tv) (10M+ users), I worked across our Next.js web application, Go subscription services, and edge deployments on Cloudflare Workers.
 
-In open source, I maintain three systems under [Nexoral](https://github.com/orgs/nexoral): an embedded ACID-compliant database, a high-QPS recursive DNS resolver, and an edge load-balancing control plane. I focus heavily on runtime internals (Node.js event loop & worker threads, Go concurrency, memory indexing) and pragmatic system design.
+In open source, I maintain projects under [Nexoral](https://github.com/orgs/nexoral), including **AxioDB** (an embedded NoSQL database with 20K+ downloads/year) and **NexoralDNS** (a self-hosted DNS resolver). I enjoy exploring Node.js internals, socket communication, and writing clean, reliable backend code.
 
 ---
 
 ## Experience
 
 - **Full Stack Developer** · [Hoichoi](https://hoichoi.tv) · *Jul 2025 – Mar 2026*  
-  Migrated high-traffic Next.js frontends to Cloudflare Workers via OpenNext (saving $3,000/month in compute spend); built Go subscription retention flows with Churnkey webhooks and eliminated payment notification race conditions using MongoDB Change Data Capture (CDC) + SQS.
+  - Migrated the Next.js web application from Vercel to Cloudflare Workers using OpenNext, cutting monthly compute costs by $3,000.
+  - Implemented retention and cancellation flows in the Go subscription service, integrating Churnkey webhooks and exposing GraphQL queries via NestJS.
+  - Fixed notification race conditions by leveraging MongoDB Change Streams to publish to AWS SQS only after database writes commit.
+
 - **Software Engineer** · [Openweb Solutions (Pitangent Group)](https://pitangent.com) · *Sep 2024 – Jul 2025*  
-  Engineered RTSP camera stream processing and WebSocket telemetry in Node.js for an AI CCTV platform; established CI/CD and autoscaling on AWS ECS/Fargate.
+  - Handled RTSP camera feeds and WebSocket alert streams in Node.js for an AI video analytics dashboard.
+  - Packaged services into Docker containers and configured deployment pipelines to AWS ECS on Fargate.
+
 - **Junior Software Developer** · [Excellis IT](https://excellisit.com) · *Apr 2024 – Aug 2024*  
-  Stabilized MQTT telemetry across 200+ IoT smart locks using exponential backoff reconnection; optimized monorepo CI builds using path-based change detection.
+  - Added exponential backoff reconnect logic to prevent MQTT dropouts across 200+ smart lock devices.
+  - Set up path-based change detection in GitHub Actions to avoid rebuilding untouched microservices.
 
 Full details → [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.pdf)
 
 ---
 
-## Featured Systems
+## Featured Projects
 
 ### [AxioDB](https://github.com/nexoral/AxioDB) — Zero-Dependency Embedded Database for Node.js
-![NPM Downloads](https://img.shields.io/npm/dy/axiodb?label=npm%20downloads%2Fyear&color=brightgreen) ![Stars](https://img.shields.io/github/stars/nexoral/AxioDB?style=social) ![CI](https://img.shields.io/github/actions/workflow/status/nexoral/AxioDB/Push.yml?branch=main&label=tests&logo=githubactions&logoColor=white)
+[![NPM Downloads](https://img.shields.io/npm/dy/axiodb?label=npm%20downloads%2Fyear&color=brightgreen)](https://www.npmjs.com/package/axiodb) [![Stars](https://img.shields.io/github/stars/nexoral/AxioDB?style=social)](https://github.com/nexoral/AxioDB) [![CI](https://img.shields.io/github/actions/workflow/status/nexoral/AxioDB/Push.yml?branch=main&label=tests&logo=githubactions&logoColor=white)](https://github.com/nexoral/AxioDB/actions)
 
 **The Problem:** SQLite requires native C bindings, creating platform-specific compile issues in Electron apps and requiring `node-gyp`. Raw JSON storage lacks indexing, transactions, and crash resilience. Client-server databases (like MongoDB) require an external daemon.
 
@@ -84,12 +90,12 @@ Full details → [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.
 
 ## Technical Skills
 
-- **Languages:** TypeScript, JavaScript, Go (Golang), SQL
-- **Runtimes & Frameworks:** Node.js, Fastify, NestJS, Express.js, React.js, Next.js, Cloudflare Workers
-- **Data & Message Queues:** PostgreSQL, MongoDB, Redis, RabbitMQ, SQLite
-- **Cloud & DevOps:** AWS (ECS, Fargate, ECR, S3, SQS), Docker, K3s, Nginx, Linux, GitHub Actions CI/CD
-- **System Architecture:** Distributed Systems, Event-Driven Architecture, Change Data Capture (CDC), Modular Monoliths, WebSockets, SSE, GraphQL
-- **Protocols & Standards:** DNS, TCP/UDP, HTTP/REST, MQTT, RTSP, Model Context Protocol (MCP)
+- **Languages:** TypeScript, JavaScript, Go (Working Knowledge), SQL
+- **Backend & APIs:** Node.js, Fastify, Express.js, NestJS, REST APIs, GraphQL, WebSockets
+- **Databases & Caching:** PostgreSQL, MongoDB, Redis, SQLite
+- **Queues & Asynchronous Workflows:** RabbitMQ, AWS SQS, MongoDB Change Streams
+- **Deployment & Tools:** Docker, Linux, Cloudflare Workers, GitHub Actions CI/CD, AWS (ECS, S3)
+- **Protocols & Standards:** DNS (UDP/TCP), MQTT, Model Context Protocol (MCP)
 
 ---
 

@@ -25,25 +25,6 @@ In open source, I maintain projects under [Nexoral](https://github.com/orgs/nexo
 
 ---
 
-## Experience
-
-- **Full Stack Developer** · [Hoichoi](https://hoichoi.tv) · *Jul 2025 – Mar 2026*  
-  - Migrated the Next.js web application from Vercel to Cloudflare Workers using OpenNext, cutting monthly compute costs by $3,000.
-  - Implemented retention and cancellation flows in the Go subscription service, integrating Churnkey webhooks and exposing GraphQL queries via NestJS.
-  - Fixed notification race conditions by leveraging MongoDB Change Streams to publish to AWS SQS only after database writes commit.
-
-- **Software Engineer** · [Openweb Solutions (Pitangent Group)](https://pitangent.com) · *Sep 2024 – Jul 2025*  
-  - Handled RTSP camera feeds and WebSocket alert streams in Node.js for an AI video analytics dashboard.
-  - Packaged services into Docker containers and configured deployment pipelines to AWS ECS on Fargate.
-
-- **Junior Software Developer** · [Excellis IT](https://excellisit.com) · *Apr 2024 – Aug 2024*  
-  - Added exponential backoff reconnect logic to prevent MQTT dropouts across 200+ smart lock devices.
-  - Set up path-based change detection in GitHub Actions to avoid rebuilding untouched microservices.
-
-Full details → [resume.ankan.in](https://resume.ankan.in/Resume_of_Ankan_Saha.pdf)
-
----
-
 ## Featured Projects
 
 ### [AxioDB](https://github.com/nexoral/AxioDB) — Zero-Dependency Embedded Database for Node.js

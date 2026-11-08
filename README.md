@@ -3,7 +3,7 @@
 # Ankan Saha
 
 **Backend Engineer**  
-*TypeScript · Node.js · Fastify · Go (Working Knowledge) · Cloudflare Workers*
+*TypeScript · Node.js · Fastify · Go · Cloudflare Workers*
 
 📍 Kolkata, India | 📧 [connect@ankan.in](mailto:connect@ankan.in) | 📄 [Resume (PDF)](https://resume.ankan.in/Resume_of_Ankan_Saha.pdf)  
 **Open to Backend / SDE roles** (Bangalore · Hyderabad · Delhi NCR · Remote)
@@ -71,7 +71,7 @@ In open source, I maintain projects under [Nexoral](https://github.com/orgs/nexo
 
 ## Technical Skills
 
-- **Languages:** TypeScript, JavaScript, Go (Working Knowledge), SQL
+- **Languages:** TypeScript, JavaScript, Go, SQL
 - **Backend & APIs:** Node.js, Fastify, Express.js, NestJS, REST APIs, GraphQL, WebSockets
 - **Databases & Caching:** PostgreSQL, MongoDB, Redis, SQLite
 - **Queues & Asynchronous Workflows:** RabbitMQ, AWS SQS, MongoDB Change Streams

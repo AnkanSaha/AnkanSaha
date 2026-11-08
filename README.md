@@ -21,25 +21,25 @@
 
 I am a backend engineer with 2 years of professional experience building web APIs, data pipelines, and developer tooling. Most recently at [Hoichoi](https://hoichoi.tv) (10M+ users), I worked across our Next.js web application, Go subscription services, and edge deployments on Cloudflare Workers.
 
-In open source, I maintain projects under [Nexoral](https://github.com/orgs/nexoral), including **AxioDB** (an embedded NoSQL database with 20K+ downloads/year) and **NexoralDNS** (a self-hosted DNS resolver). I enjoy exploring Node.js internals, socket communication, and writing clean, reliable backend code.
+In open source, I maintain projects under [Nexoral](https://github.com/orgs/nexoral), including **AxioDB** (an embedded NoSQL database with 40K+ downloads) and **NexoralDNS** (a self-hosted DNS resolver). I enjoy exploring Node.js internals, socket communication, and writing clean, reliable backend code.
 
 ---
 
 ## Featured Projects
 
-### [AxioDB](https://github.com/nexoral/AxioDB) — Zero-Dependency Embedded Database for Node.js
-[![NPM Downloads](https://img.shields.io/npm/dy/axiodb?label=npm%20downloads%2Fyear&color=brightgreen)](https://www.npmjs.com/package/axiodb) [![Stars](https://img.shields.io/github/stars/nexoral/AxioDB?style=social)](https://github.com/nexoral/AxioDB) [![CI](https://img.shields.io/github/actions/workflow/status/nexoral/AxioDB/Push.yml?branch=main&label=tests&logo=githubactions&logoColor=white)](https://github.com/nexoral/AxioDB/actions)
+### [AxioDB](https://github.com/nexoral/AxioDB) — Zero-Dependency Embedded Database for Node.js & Bun
+[![NPM Downloads](https://img.shields.io/npm/dt/axiodb?label=npm%20downloads&color=brightgreen)](https://www.npmjs.com/package/axiodb) [![Stars](https://img.shields.io/github/stars/nexoral/AxioDB?style=social)](https://github.com/nexoral/AxioDB) [![CI](https://img.shields.io/github/actions/workflow/status/nexoral/AxioDB/Push.yml?branch=main&label=tests&logo=githubactions&logoColor=white)](https://github.com/nexoral/AxioDB/actions)
 
 **The Problem:** SQLite requires native C bindings, creating platform-specific compile issues in Electron apps and requiring `node-gyp`. Raw JSON storage lacks indexing, transactions, and crash resilience. Client-server databases (like MongoDB) require an external daemon.
 
 **Architecture & Implementation:**
-- Pure TypeScript engine with zero native dependencies; runs directly inside the Node.js/Electron host process.
+- Pure TypeScript engine with zero native dependencies; runs directly inside the Node.js/Bun/Electron host process.
 - Implements MongoDB-compatible query syntax, hash-indexed lookups, and ACID transactions backed by a Write-Ahead Log (WAL).
 - Multi-core processing utilizing Node.js `worker_threads` for parallel dataset operations.
-- Ships with an interactive Go CLI, web control dashboard, Dockerized TCP server mode, and a 32-tool Model Context Protocol (MCP) server for direct AI agent interaction.
-- Verified with 10 automated test suites covering crash recovery under unexpected `SIGKILL`, TCP/TLS authentication, and data rollbacks.
+- Ships with an interactive Go CLI, web control dashboard, Dockerized TCP server mode, and a 45-tool Model Context Protocol (MCP) server for direct AI agent interaction.
+- Verified with 14 automated test suites (329+ tests) covering crash recovery under unexpected `SIGKILL`, TCP/TLS authentication, and data rollbacks.
 
-**Scale & Impact:** 20,000+ NPM downloads/year. Used across Electron desktop software and local-first tooling.
+**Scale & Impact:** 40,000+ NPM downloads. Used across Electron desktop software, local-first tooling, and AI agent memory state stores.
 
 ---
 

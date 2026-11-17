@@ -3,10 +3,10 @@
 # Ankan Saha
 
 **Backend Engineer**  
-*TypeScript · Node.js · Fastify · Go · Cloudflare Workers*
+*TypeScript · Node.js · Go · Fastify · Edge & Cloud*
 
 📍 Kolkata, India | 📧 [connect@ankan.in](mailto:connect@ankan.in) | 📄 [Resume (PDF)](https://resume.ankan.in/Resume_of_Ankan_Saha.pdf)  
-**Open to Backend / SDE roles** (Bangalore · Hyderabad · Delhi NCR · Remote)
+**Open to Backend / SDE roles** (On-site · Hybrid · Remote)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ankan.in-00ADD8?style=flat-square&logo=google-chrome&logoColor=white)](https://ankan.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-theankansaha-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/theankansaha)
@@ -51,7 +51,7 @@ In open source, I maintain projects under [Nexoral](https://github.com/orgs/nexo
 **The Problem:** Managing DNS records and ad/threat filtering across LAN devices typically requires maintaining decentralized `/etc/hosts` configurations, with zero query audit trails and external DNS providers inspecting outbound queries.
 
 **Performance & Architecture:**
-- **The Go Rewrite:** Prototyped the initial engine in TypeScript (benchmarked at 8,050 QPS with 0.97% packet loss under 500 concurrent connections). Re-engineered in **Go**, pushing resolution to **12,746 QPS at 3.8ms latency with zero dropped packets** under `dnsperf` on identical hardware (AMD Ryzen 5 5500U, 9 query worker threads).
+- **The Go Rewrite:** Prototyped the initial engine in TypeScript (benchmarked at 8,050 QPS with 0.97% packet loss under 500 concurrent connections). Re-engineered in **Go**, pushing resolution to **19,719 QPS peak throughput** (and **12,746 QPS at 3.8ms baseline latency**) with zero dropped packets under `dnsperf` on identical hardware (AMD Ryzen 5 5500U).
 - **Asynchronous Audit Logging:** Shifted query logging and metrics capture to RabbitMQ background consumers after sending the DNS response packet, keeping resolution latency strictly minimal.
 - **In-Memory Caching:** Multi-tier caching layer (in-memory + Redis) absorbs 98% of repetitive lookup traffic.
 - **Control Interface:** Includes a Next.js administrative console and an integrated MCP server for programmatic natural-language DNS rule configuration.
@@ -73,12 +73,11 @@ In open source, I maintain projects under [Nexoral](https://github.com/orgs/nexo
 
 ## Technical Skills
 
-- **Languages:** TypeScript, JavaScript, Go, SQL
-- **Backend & APIs:** Node.js, Fastify, Express.js, NestJS, REST APIs, GraphQL, WebSockets
+- **Languages & Runtimes:** TypeScript, JavaScript, Go, SQL, Node.js
+- **Frameworks & APIs:** Fastify, Express.js, NestJS, REST APIs, GraphQL, WebSockets
 - **Databases & Caching:** PostgreSQL, MongoDB, Redis, SQLite
-- **Queues & Asynchronous Workflows:** RabbitMQ, AWS SQS, MongoDB Change Streams
-- **Deployment & Tools:** Docker, Linux, Cloudflare Workers, GitHub Actions CI/CD, AWS (ECS, S3)
-- **Protocols & Standards:** DNS (UDP/TCP), MQTT, Model Context Protocol (MCP)
+- **Cloud & DevOps:** Docker, Linux, AWS (ECS, S3, SQS), Cloudflare (Workers, Edge Compute), CI/CD
+- **Architecture & Protocols:** Distributed Systems, Event-Driven Architecture (RabbitMQ), DNS (UDP/TCP), MQTT, Model Context Protocol (MCP)
 
 ---
 
